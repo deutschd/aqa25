@@ -35,3 +35,30 @@ temp = "Temporary data"
 a, b, c = 'well', "it's", 'good'
 print(a, b, c)
 
+
+
+# Homework from info Above
+
+# a = input("Enter 1st word: ")
+# b = input("Enter 2nd word: ")
+# print(a,b)
+# c = a
+# a = b
+# b = c
+# # a, b = b, c
+# print(a,b)
+
+
+# Numbers and Arithmetic Operations
+
+print(3 / 2)
+print(2 ** 5)
+print(pow(2, 5))
+a = 5
+b = -40000
+c = a + b
+print(c)
+print('Hi', 2)
+
+
+#
