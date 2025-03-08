@@ -61,4 +61,45 @@ print(c)
 print('Hi', 2)
 
 
-#
+# Arithmetic Priority 1st () -> ^ -> */
+
+print(2 * 3 ** (3 - 1))
+print((2 ** 3) ** 2)
+
+
+# Enter number from Keyboard
+
+# a = int(input('Enter number: '))
+# d = '12'
+# f = '23'
+# c = int(d+f) + a
+# print(c)
+
+
+# divide = int & remainder
+
+apples = 41
+boxes = 3
+full_boxes = apples // boxes
+apples_left = apples - full_boxes * boxes
+apples_left_1 = apples % boxes  # remainder
+print("Number of boxes with apples: ", full_boxes)
+print("Left apples without boxes: ", apples_left)
+print("Left apples without boxes(with % formula): ", apples_left_1)
+print(52 // 10)
+print(52 % 10)
+print(149 // 10)
+print(149 % 10)
+
+
+# += -= *= //= /= %=
+
+products = 0
+products += products + 100
+print("New value:", products)
+products += 10
+print("New value:", products)
+products += 15
+print("New value:", products)
+products += 15
+print("New value:", products)
