@@ -1,6 +1,6 @@
 print("helloworld")
 
-# BASIC
+print("\nBASIC")
 # Variables
 
 text = '\nPython!'
@@ -103,3 +103,38 @@ products += 15
 print("New value:", products)
 products += 15
 print("New value:", products)
+
+
+print("\nIF")
+
+# a = int(input('First number: '))
+# b = int(input('Second number: '))
+# print(a, b)
+# a = a + b
+# print('a =', a)
+# b = a - b
+# print('b =', b)
+# a = a - b
+# print('a =', a)
+# print(a, b)
+
+number = 1234
+a = number % 10
+b = number % 100 // 10
+c = number // 100 % 10
+d = number // 1000
+reverse_number = a * 1000 + b * 100 + c * 10 + d
+print('Reversed number: ', reverse_number)
+
+
+# Operator IF
+
+bank = int(input('How much money do you have?: '))
+if bank > 75000:
+    bank -= 75000
+    print('Course is purchased!')
+    print('Your bank account:', bank)
+else:
+    print("You don't have enough money")
+
+
