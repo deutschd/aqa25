@@ -247,8 +247,8 @@ print('or and')
 
 
 print('Leap Year check')
-year = int(input('Enter year(0-inf): '))
-if (year % 4 == 0) and (year % 100 != 0) or (year & 400 == 0):
-    print("It's a leap year!")
-else:
-    print("It's a common year!")
+# year = int(input('Enter year(0-inf): '))
+# if (year % 4 == 0) and (year % 100 != 0) or (year & 400 == 0):
+#     print("It's a leap year!")
+# else:
+#     print("It's a common year!")
