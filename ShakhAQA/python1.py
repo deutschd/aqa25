@@ -127,7 +127,7 @@ reverse_number = a * 1000 + b * 100 + c * 10 + d
 print('Reversed number: ', reverse_number)
 
 
-# Operator IF
+print('Operator IF')
 
 # bank = int(input('How much money do you have?: '))
 # if bank > 75000:
@@ -174,11 +174,74 @@ print('Reversed number: ', reverse_number)
 # print('Max number: ', max)
 
 
-# IF inside IF
-bank = int(input('How much money do you have?: '))
-if bank > 75000:
-    bank -= 75000
-    print('Good')
-else:
-    print('Not good')
-print('Have a nice day!')
+print("IF inside IF")
+# bank = int(input('How much money do you have?: '))
+# if bank > 75000:
+#     bank -= 75000
+#     print('Good')
+#     if bank < 5000:
+#         bank += 1000
+#         print('You got a discount for 1k')
+# else:
+#     print('Not good')
+# print('In your bank account:', bank)
+# print('Have a nice day!')
+
+# product = int(input('Cheques amount: '))
+# delivery = int(input('Money for delivery: '))
+# discount = 0
+# if product > 10000:
+#     print('Good cheque! The delivery expenses is cut by 2')
+#     delivery /= 2
+#     if product % 2 == 0:
+#         print("You'll be give a gift!")
+#         discount = 500
+# price = product + delivery - discount
+# print('Full price: ', price)
+
+print('H/W:')
+# x = 23
+# y = 20
+# if x > y:
+#     print('x is bigger')
+# elif x < y:
+#     print('y is bigger')
+# else:
+#     print("they're equal")
+
+
+print('elif')
+# salary = int(input('How much money do you get?: '))
+# if salary < 10000:
+#     tax = salary * 0.13
+#     print('Your tax(13%):', tax)
+# elif salary < 50000:
+#     tax = salary * 0.2
+#     print('Your tax(20%):', tax)
+# else:
+#     tax = salary * 0.3
+#     print('Your tax(30%):', tax)
+
+
+print('or and')
+# # we want to buy a bicycle
+# year = int(input('Enter year: '))
+# speed = int(input('Enter max speed: '))
+# if year >= 2024 and speed >= 24:
+#     print('Good')
+# else:
+#     print('Not good')
+
+# year = int(input('Enter year: '))
+# speed = int(input('Enter max speed: '))
+# if year < 2018 or speed < 24:
+#     print('Not good')
+# else:
+#     print('Good')
+
+# x = int(input('Enter x: '))
+# if 0 < x < 100:
+#     print('X inside')
+# else:
+#     print('X outside')
+
