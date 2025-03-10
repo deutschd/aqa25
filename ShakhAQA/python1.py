@@ -129,12 +129,56 @@ print('Reversed number: ', reverse_number)
 
 # Operator IF
 
+# bank = int(input('How much money do you have?: '))
+# if bank > 75000:
+#     bank -= 75000
+#     print('Course is purchased!')
+#     print('Your bank account:', bank)
+# else:
+#     print("You don't have enough money")
+
+# son = int(input('Give me number son: '))
+# father = 5
+# if son != father:
+#     print("Nope")
+# else:
+#     print('That is good')
+
+# apple = int(input("Money from apples: "))
+# oranges = int(input("Money from oranges: "))
+# money_total = apple + oranges
+# expenditure = money_total - 100
+# if money_total > 0:
+#     print("Good, enough money to start business!")
+# else:
+#     print("That's bad to start business..")
+
+# remake
+# apple = int(input("Money from apples: "))
+# oranges = int(input("Money from oranges: "))
+# expenditure = int(input("Expenses: "))
+# if apple + oranges >= expenditure:
+#     print("that's good!")
+# else:
+#     print("that's bad!")
+
+# x = int(input('1st number: '))
+# y = int(input('2nd number: '))
+# z = int(input('3rd number: '))
+# if x > y: # we don't care about equality
+#     max = x
+# else:
+#     max = y
+# if z > max:
+#     max = z
+# print('Max number: ', max)
+
+
+# IF inside IF
 bank = int(input('How much money do you have?: '))
 if bank > 75000:
     bank -= 75000
-    print('Course is purchased!')
-    print('Your bank account:', bank)
+    print('Good')
 else:
-    print("You don't have enough money")
-
-
+    print('Not good')
+print('Have a nice day!')
