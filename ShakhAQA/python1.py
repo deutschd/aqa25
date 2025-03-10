@@ -1,6 +1,6 @@
 print("helloworld")
 
-# BASIC
+print("\nBASIC")
 # Variables
 
 text = '\nPython!'
@@ -103,3 +103,152 @@ products += 15
 print("New value:", products)
 products += 15
 print("New value:", products)
+
+
+print("\nIF")
+
+# a = int(input('First number: '))
+# b = int(input('Second number: '))
+# print(a, b)
+# a = a + b
+# print('a =', a)
+# b = a - b
+# print('b =', b)
+# a = a - b
+# print('a =', a)
+# print(a, b)
+
+number = 1234
+a = number % 10
+b = number % 100 // 10
+c = number // 100 % 10
+d = number // 1000
+reverse_number = a * 1000 + b * 100 + c * 10 + d
+print('Reversed number: ', reverse_number)
+
+
+print('Operator IF')
+
+# bank = int(input('How much money do you have?: '))
+# if bank > 75000:
+#     bank -= 75000
+#     print('Course is purchased!')
+#     print('Your bank account:', bank)
+# else:
+#     print("You don't have enough money")
+
+# son = int(input('Give me number son: '))
+# father = 5
+# if son != father:
+#     print("Nope")
+# else:
+#     print('That is good')
+
+# apple = int(input("Money from apples: "))
+# oranges = int(input("Money from oranges: "))
+# money_total = apple + oranges
+# expenditure = money_total - 100
+# if money_total > 0:
+#     print("Good, enough money to start business!")
+# else:
+#     print("That's bad to start business..")
+
+# remake
+# apple = int(input("Money from apples: "))
+# oranges = int(input("Money from oranges: "))
+# expenditure = int(input("Expenses: "))
+# if apple + oranges >= expenditure:
+#     print("that's good!")
+# else:
+#     print("that's bad!")
+
+# x = int(input('1st number: '))
+# y = int(input('2nd number: '))
+# z = int(input('3rd number: '))
+# if x > y: # we don't care about equality
+#     max = x
+# else:
+#     max = y
+# if z > max:
+#     max = z
+# print('Max number: ', max)
+
+
+print("IF inside IF")
+# bank = int(input('How much money do you have?: '))
+# if bank > 75000:
+#     bank -= 75000
+#     print('Good')
+#     if bank < 5000:
+#         bank += 1000
+#         print('You got a discount for 1k')
+# else:
+#     print('Not good')
+# print('In your bank account:', bank)
+# print('Have a nice day!')
+
+# product = int(input('Cheques amount: '))
+# delivery = int(input('Money for delivery: '))
+# discount = 0
+# if product > 10000:
+#     print('Good cheque! The delivery expenses is cut by 2')
+#     delivery /= 2
+#     if product % 2 == 0:
+#         print("You'll be give a gift!")
+#         discount = 500
+# price = product + delivery - discount
+# print('Full price: ', price)
+
+print('H/W:')
+# x = 23
+# y = 20
+# if x > y:
+#     print('x is bigger')
+# elif x < y:
+#     print('y is bigger')
+# else:
+#     print("they're equal")
+
+
+print('elif')
+# salary = int(input('How much money do you get?: '))
+# if salary < 10000:
+#     tax = salary * 0.13
+#     print('Your tax(13%):', tax)
+# elif salary < 50000:
+#     tax = salary * 0.2
+#     print('Your tax(20%):', tax)
+# else:
+#     tax = salary * 0.3
+#     print('Your tax(30%):', tax)
+
+
+print('or and')
+# # we want to buy a bicycle
+# year = int(input('Enter year: '))
+# speed = int(input('Enter max speed: '))
+# if year >= 2024 and speed >= 24:
+#     print('Good')
+# else:
+#     print('Not good')
+
+# year = int(input('Enter year: '))
+# speed = int(input('Enter max speed: '))
+# if year < 2018 or speed < 24:
+#     print('Not good')
+# else:
+#     print('Good')
+
+# x = int(input('Enter x: '))
+# if 0 < x < 100:
+#     print('X inside')
+# else:
+#     print('X outside')
+
+
+print('Leap Year check')
+# year = int(input('Enter year(0-inf): '))
+# if (year % 4 == 0) and (year % 100 != 0) or (year & 400 == 0):
+#     print("It's a leap year!")
+# else:
+#     print("It's a common year!")
