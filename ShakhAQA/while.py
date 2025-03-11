@@ -170,10 +170,3 @@ print('\t\nContinue in while')
 #         continue
 #     square = counter * counter
 #     print(counter, 'squared =', square)
-
-
-
-
-
-
-
