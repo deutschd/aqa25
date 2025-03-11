@@ -63,7 +63,7 @@ while number:
 print('nums_total:', nums_total)
 print('number is reached:', number)
 
-print("\t\nREAD(r) - REMEMBER(w) - QUIT(q)")
+print("\t\nREAD(r) - REMEMBER(w) - QUIT(q)") #1
 # memory = None
 # while True: # 1
 #     command = input('Command: ')
