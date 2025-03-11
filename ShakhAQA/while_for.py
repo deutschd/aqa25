@@ -78,4 +78,73 @@ print("\t\nREAD(r) - REMEMBER(w) - QUIT(q)") #1
 #         print('Known commands: r, w, q (quit)')
 
 
+print('\tHOMEWORK - Ask temperature and distance man can walk in it')
+# temperature = int(input('Enter temperature: '))
+# distance = 0
+# while temperature >= 15:
+#     distance += 20
+#     print("Your distance:", distance)
+#     temperature -= 2
+#     print('Temperature right now:', temperature)
+#     if temperature <= 15:
+#         break
+#     distance += 10
+#
+# print("Distance:", distance)
+# print("Temperature:", temperature)
+
+
+print('\t\nHOMEWORK - SUM BEFORE WE MEET "5"')
+# code = int(input('Enter the code(only numbers): '))
+# sum = 0
+# while code:
+#     slice_code = code % 10
+#     if slice_code == 5:
+#         print('5!:', slice_code)
+#         break
+#     sum += slice_code
+#     code //= 10
+#
+# print('Your sum before 5:', sum)
+
+code = 12345
+coder = code // 10
+print('12345 // 10:', coder)
+
+print('\t\nHOMEWORK - READ UNTIL NEGATIVE NUMBER IS WRITTEN (+ SUM OF TRIES)')
+# memory = None
+# tries = 0
+# while True:
+#     command = int(input('What number?:'))
+#     if command >= 0:
+#         print('your number', command)
+#     elif command < 0:
+#         print('Your tries', tries)
+#         break
+#     else:
+#         print("You're done")
+#     tries += 1
+
+
+print('\t\nHOMEWORK - IF 3 = you lose, if another you won 500$(1-6')
+# first_money = int(input('Enter your budget: '))
+# while  first_money != 0 or 10000 > first_money:
+#     counter = int(input('Choose 1-6:'))
+#     if counter == 3:
+#         first_money = 0
+#         print('You lose everything!')
+#         break
+#     elif 1 <= counter <= 6:
+#         first_money += 500
+#         print('Your balance:', first_money)
+#     else:
+#         print('Good, please enter number between 1-6')
+
+
+
+
+
+
+
+
 
