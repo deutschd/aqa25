@@ -39,6 +39,43 @@ while number < 97:
     number += 7
     print(number)
 
+print('\tPROCESS STOPS AT EXACT NUMBER')
+n = 6
+total = 0
+while n:
+    print('process n', n)
+    if n < 4:
+        break
+    total +=n
+    n -= 1
+print('total:', total)
+print(n)
+
+print('\tSUM OF EACH NUMBER(with break)')
+number = 123456
+nums_total = 0
+while number:
+    remainder = number % 10
+    if remainder < 4:
+        break
+    nums_total += remainder
+    number //= 10
+print('nums_total:', nums_total)
+print('number is reached:', number)
+
+print("\t\nREAD(r) - REMEMBER(w) - QUIT(q)")
+# memory = None
+# while True: # 1
+#     command = input('Command: ')
+#     if command == 'r':
+#         print('Memory:', memory)
+#     elif command == 'w':
+#         memory = input('Remember?: ')
+#     elif command == 'q':
+#         print('Bye!')
+#         break
+#     else:
+#         print('Known commands: r, w, q (quit)')
 
 
 
