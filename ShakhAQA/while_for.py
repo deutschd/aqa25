@@ -141,6 +141,35 @@ print('\t\nHOMEWORK - IF 3 = you lose, if another you won 500$(1-6')
 #         print('Good, please enter number between 1-6')
 
 
+print('\t\nContinue in while')
+counter = 0
+
+while counter < 10:
+    counter += 1
+    if counter % 3 != 0:
+        squared = counter * counter
+        print(counter, 'squared =', squared)
+
+counter = 0
+while counter < 10:
+    counter += 1
+    if counter % 3 == 0:
+        print('Skip', counter)
+        continue
+    squared = counter * counter
+    print(counter, 'squared =', squared)
+
+counter = 0
+
+while True:
+    counter += 1
+    if counter > 10:
+        break
+    if counter % 3 == 0:
+        print('skipped', counter)
+        continue
+    square = counter * counter
+    print(counter, 'squared =', squared)
 
 
 
