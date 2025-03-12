@@ -65,7 +65,7 @@ print('number is reached:', number)
 
 print("\t\nREAD(r) - REMEMBER(w) - QUIT(q)") #1
 # memory = None
-# while True: # 1
+# while True:
 #     command = input('Command: ')
 #     if command == 'r':
 #         print('Memory:', memory)
@@ -170,3 +170,124 @@ print('\t\nContinue in while')
 #         continue
 #     square = counter * counter
 #     print(counter, 'squared =', square)
+
+print('\tINFINITY CYCLE. LOGiCAL variables')
+print('\tPRACTICE - timer for phone')
+count = 10
+while count <= 10:
+    print('count number:', count)
+    if count == 0:
+        print('Время вышло!')
+        break
+    count -= 1
+
+print('\t\nPRACTICE - ASK 1/0 = GO/STOP?')
+# answer = None
+# while True:
+#     answer = int(input('Continue?(1/0): '))
+#     if answer == 1:
+#         print("Ok, we'll continue!")
+#     elif answer == 0:
+#         print("We'll close app...")
+#         break
+#     else:
+#         print("You can only choose 1 or 0")
+# print('The app is closed')
+
+
+print('\t\nPRACTICE - VIRUS, ENTER CODE UNTIL IT\'S CORRECT')
+# answer = None
+# while True:
+#     answer = int(input('WHAT THE CODE?: '))
+#     if answer == 505:
+#         break
+#     elif answer == 0:
+#         print('It cannot be ZERO!')
+#     else:
+#         print('IT IS WRONG!')
+# print("You're right...Good job, the code is correct!")
+
+
+print('\tWHILE WITH COUNTER')
+print('\tPRACTICE - HOW MANY TIMES I SHOULD SAY SO?')
+# counter = int(input('HOW MANY TIMES I SHOULD SAY "HELLO WORLD?: '))
+# while 0 <= counter:
+#     if counter == 0:
+#         break
+#     counter -= 1
+#     print('HELLO WORLD')
+
+print("\tPRACTICE - WHAT'S THE WEIGHT OF ALL PRODUCTS?")
+# weight = 0
+# weight_sum = 0
+# number_of_weights = int(input('How many weights do you have?: '))
+# while 0 <= number_of_weights:
+#     if number_of_weights >= 1:
+#         weight = int(input('Enter weight: '))
+#         weight_sum += weight
+#
+#     else:
+#         break
+#     number_of_weights -= 1
+#
+# print('Total weight:', weight_sum)
+
+print("\tPRACTICE - 1...N in pow(3)")
+# counter = int(input('Enter number: '))
+# while counter != 1:
+#     squared = counter ** 3
+#     print(counter, 'in ** 3 =', squared)
+#     counter -=1
+
+
+print('\t\nPRACTICE - ENTER CORRECT NUMBER OR MORE')
+# answer = None
+# while True:
+#     answer = int(input('HOW MUCH DID YOU TAKE?: '))
+#     if answer >= 100:
+#         break
+#     else:
+#         print('Are you out of your mind?')
+# print('Thank you! You are done')
+
+print('\t\nPRACTICE - HOW MANY NUMBERS IN THE SEQUENCE?')
+# answer = int(input('Enter the number: '))
+# counter = 1
+# while True:
+#     answer //= 10
+#     if answer == 0:
+#         break
+#     else:
+#         counter += 1
+# print('How many numbers: ', counter)
+
+print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
+# counter = 0
+# counter_negative = 0
+# while True:
+#     answer = int(input('Enter the number: '))
+#     if answer > 0:
+#         counter += 1
+#     if answer < 0:
+#         counter_negative +=1
+#     elif answer == 0:
+#         break
+# print('How many + numbers: ', counter)
+# print('How many - numbers: ', counter_negative)
+
+print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
+
+tasks = None
+wifecalls = None
+hours = 3
+tasksum = 0
+while hours >= 1:
+    tasks = int(input('How many tasks for 1h?: '))
+    wifecalls = int(input('Did your wife called you?(1/0): '))
+    print('Hour:', hours, 'Tasks:', tasks, 'Wife calls:', wifecalls)
+    tasksum += tasks
+    hours -= 1
+if wifecalls > 0:
+    print('Buy the milk')
+print('TASKS TOTAL', tasksum)
+
