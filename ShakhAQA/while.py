@@ -275,8 +275,7 @@ print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
 # print('How many + numbers: ', counter)
 # print('How many - numbers: ', counter_negative)
 
-print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
-#
+print('\t\nPRACTICE - HOW MANY TASKS AND CALLS FROM WIFE DID YOU GET?')
 # tasks = None
 # wifecalls = None
 # hours = 3
@@ -290,4 +289,49 @@ print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
 # if wifecalls > 0:
 #     print('Buy the milk')
 # print('TASKS TOTAL', tasksum)
+
+print('\t\nPRACTICE - BANK = AFTER HOW MANY YEARS X WILL INCREASE TO Y')
+# budget = 1000
+# percentage = 25
+# year = 1
+# aim = 2000 # int(input('What is your aim?: '))
+# while aim >= budget:
+#     budget = int(budget + budget*0.25)
+#     print('Budget:', budget)
+#     if budget >= aim:
+#         break
+#     year += 1
+# print('Years:', year)
+
+print('\t\nPRACTICE - TELL ME THE NUMBER = HIGHER & LOWER')
+# number = 9 # int(input('Choose the number between 1 - 10: '))
+# tries = 0
+# while number:
+#     choose = int(input('Choose the number between 1 - 10: '))
+#     if choose == number:
+#         print('Congrats! Number is:', number)
+#         break
+#     elif choose > number:
+#         print('The given number is lower...')
+#     else:
+#         print('The given number is higher...')
+#     tries += 1
+# print('Tries:', tries)
+
+print('\t\nPRACTICE - TELL ME THE NUMBER = HIGHER & LOWER')
+N = (100 + 1) // 2
+while True:
+    print('Your number = > or <', N, '?')
+    answer = int(input('1 - =, 2 - >, 3 = <: '))
+    if answer == 1:
+        print('I got it!')
+        break
+    elif answer == 2:
+        N= int(N + (100 - N) // 2)
+    else:
+        N = int((100 - N) // 2 - N)
+
+
+
+
 
