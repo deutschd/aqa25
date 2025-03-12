@@ -276,18 +276,18 @@ print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
 # print('How many - numbers: ', counter_negative)
 
 print('\t\nPRACTICE - HOW MANY NEGATIVE/POSITIVE NUMBERS?')
-
-tasks = None
-wifecalls = None
-hours = 3
-tasksum = 0
-while hours >= 1:
-    tasks = int(input('How many tasks for 1h?: '))
-    wifecalls = int(input('Did your wife called you?(1/0): '))
-    print('Hour:', hours, 'Tasks:', tasks, 'Wife calls:', wifecalls)
-    tasksum += tasks
-    hours -= 1
-if wifecalls > 0:
-    print('Buy the milk')
-print('TASKS TOTAL', tasksum)
+#
+# tasks = None
+# wifecalls = None
+# hours = 3
+# tasksum = 0
+# while hours >= 1:
+#     tasks = int(input('How many tasks for 1h?: '))
+#     wifecalls = int(input('Did your wife called you?(1/0): '))
+#     print('Hour:', hours, 'Tasks:', tasks, 'Wife calls:', wifecalls)
+#     tasksum += tasks
+#     hours -= 1
+# if wifecalls > 0:
+#     print('Buy the milk')
+# print('TASKS TOTAL', tasksum)
 
