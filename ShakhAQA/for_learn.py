@@ -36,5 +36,37 @@ for win_number in 345, 19, 87, 1020, 421, 555, 505:
         print('Fu:', win_number)
 print('Number of winners:', winner_numbers)
 
+print('\n\tFOR IN RANGE')
+print('\twhile:')
+text = 'Python'
+words_count = 0
+while words_count < 5:
+    print(text)
+    words_count += 1
+print('\tfor in range:')
+for words_count in range(5):
+    print(text)
+    print(words_count)
 
+for square in range(11):
+    print('Squares 1-10:', square**2)
+
+
+# total_months = int(input('How many months you need to collect money?: '))
+# summ = 0
+# for month in range(total_months):
+#     print('Month:', month)
+#     money = int(input('How much to collect?: '))
+#     summ += money
+# print('In', total_months, 'months you will collect:', summ)
+
+
+print('\n\tPRACTICE - KY-KY several times')
+total_kykys = int(input('How many times to say Ky-ky?: '))
+kyky = 'Ky-ky'
+for kykys in range(total_kykys):
+    print(kyky)
+
+for second_grade in range(21):
+    print('All numbers from 0-20 in square:', second_grade ** 2)
 
