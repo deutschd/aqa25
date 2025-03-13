@@ -318,20 +318,23 @@ print('\t\nPRACTICE - TELL ME THE NUMBER = HIGHER & LOWER')
 #     tries += 1
 # print('Tries:', tries)
 
-print('\t\nPRACTICE - TELL ME THE NUMBER = HIGHER & LOWER')
-N = (100 + 1) // 2
-while True:
-    print('Your number = > or <', N, '?')
-    answer = int(input('1 - =, 2 - >, 3 = <: '))
-    if answer == 1:
-        print('I got it!')
-        break
-    elif answer == 2:
-        N= int(N + (100 - N) // 2)
-    else:
-        N = int((100 - N) // 2 - N)
-
-
-
+print('\t\nPRACTICE - BINARY SEARCH = HARD LVL')
+# N = (100 + 1) // 2
+# min = 1
+# max = 100
+#
+# ((n//2+1) + n)
+# while True:
+#     print('Your number = > or <', N, '?')
+#     print('N: ', N)
+#     answer = int(input('1 - equal, 2 - higher, 3 = lower: '))
+#     if answer == 1:
+#         print('I got it!')
+#         break
+#     elif answer == 2:
+#         min = N - 1
+#     else:
+#         max = N + 1
+#     N = (max + min) // 2
 
 
