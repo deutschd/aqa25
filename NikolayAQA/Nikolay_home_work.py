@@ -153,3 +153,12 @@
 # print("Итоговая сумма :" , product)
 # product += 450
 # print("Итоговая сумма :" , product)
+
+#4.2 Условный оператор
+
+count = int(input("Загадай число от 1 до 10 :"))
+my_number = 8
+if count == my_number:
+     print("Ты молодец!")
+else:
+    print("В следующий раз повезёт :)")
