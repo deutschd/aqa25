@@ -62,11 +62,27 @@ for square in range(11):
 
 
 print('\n\tPRACTICE - KY-KY several times')
-total_kykys = int(input('How many times to say Ky-ky?: '))
-kyky = 'Ky-ky'
-for kykys in range(total_kykys):
-    print(kyky)
+# total_kykys = int(input('How many times to say Ky-ky?: '))
+# kyky = 'Ky-ky'
+# for kykys in range(total_kykys):
+#     print(kyky)
+#
+# for second_grade in range(21):
+#     print('All numbers from 0-20 in square:', second_grade ** 2)
 
-for second_grade in range(21):
-    print('All numbers from 0-20 in square:', second_grade ** 2)
+
+print('\n\tRANGE SPECIFIC CASES')
+# begin_num = int(input('Enter number: '))
+# end_num = int(input('Enter greater one: '))
+# for numberpow in range(begin_num, end_num + 1):
+#     print(numberpow**2)
+
+wake_up = int(input('When did you wake up?: '))
+awake_hours = 0
+calories_sum =0
+for hour in range(wake_up, 23)
+    print('Righr now', hour, 'hour')
+    calories = int(input('How much did you eart recently?:'))
+    calories_sum += calories\
+
 
