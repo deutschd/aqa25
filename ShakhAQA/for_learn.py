@@ -29,7 +29,7 @@ for calculation in 3, 7, 5, 6, 4:
 print("\n\tPRACTICE - ")
 winner_numbers = 0
 for win_number in 345, 19, 87, 1020, 421, 555, 505:
-    if win_number % 5 == 0 and 99< win_number < 1000:
+    if win_number % 5 == 0 and 99 < win_number < 1000:
         print('You win:', win_number)
         winner_numbers += 1
     else:
@@ -74,15 +74,50 @@ print('\n\tPRACTICE - KY-KY several times')
 print('\n\tRANGE SPECIFIC CASES')
 # begin_num = int(input('Enter number: '))
 # end_num = int(input('Enter greater one: '))
-# for numberpow in range(begin_num, end_num + 1):
-#     print(numberpow**2)
+# for number_pow in range(begin_num, end_num + 1):
+#     print(number_pow**2)
 
-wake_up = int(input('When did you wake up?: '))
+print('\tHOW MANY CALORIES DID YOU EAT + SLEEP HOURS')
+# wake_up = int(input('When did you wake up?: '))
+# awake_hours = 0
+# calories_sum = 0
+# for hour in range(wake_up, 23):
+#     print('Right now', hour, 'hour')
+#     calories = int(input('How much did you eat recently?: '))
+#     calories_sum += calories
+#     if calories_sum > 2000:
+#         print('You ate good, now time to sleep!')
+#         break
+#     awake_hours += 1
+# print('You ate', calories_sum, 'calories during the day')
+# print('You did not sleep', awake_hours)
+
+print('\n\tPRACTICE - NUMBER**3')
+for number_cube in range(1, 11):
+    print(number_cube**3)
+
+print('\n\tPRACTICE - SUM BETWEEN RANGE 5-10 = 5+6+7+8+9+10')
+# first_num = int(input('Enter first numb: '))
+# second_num = int(input('Enter second lower numb: '))
+# sum_numb = 0
+# for numbers_collection in range(first_num, second_num + 1):
+#     sum_numb += numbers_collection
+# print(sum_numb)
+
+print('\n\tPRACTICE - HOW MANY HOURS YOU ARE AWAKE')
+start_day = int(input('When did you wake up?(0-22): '))
 awake_hours = 0
-calories_sum =0
-for hour in range(wake_up, 23)
-    print('Righr now', hour, 'hour')
-    calories = int(input('How much did you eart recently?:'))
-    calories_sum += calories\
+calories_sum = 0
+for hour in range (start_day, 23):
+    calories = int(input('How many calories did you eat?: '))
+    calories_sum += calories
+    if calories_sum > 2000:
+        print('Too much food, time to sleep now')
+        break
+    awake_hours += 1
+print('Total calories:', calories_sum)
+print('You did not sleep for:', awake_hours)
+
+
 
 
