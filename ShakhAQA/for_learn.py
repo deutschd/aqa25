@@ -122,14 +122,18 @@ print('\n\tPRACTICE - HOW MANY HOURS YOU ARE AWAKE')
 
 
 print('\n\tAlgorithms with FOR RANGE')
-number = 27644437 # int(input('Enter number: '))
-isPrime = True
-for divider in range(2, number):
-    if number % divider == 0:
-        isPrime = False
-        break
-if isPrime:
-    print('Prime number')
-else:
-    print('sostavnoe:')
+# number = 27644437 # int(input('Enter number: '))
+# isPrime = True
+# for divider in range(2, number):
+#     if number % divider == 0:
+#         isPrime = False
+#         break
+# if isPrime:
+#     print('Prime number')
+# else:
+#     print('sostavnoe:')
+
+print('\tPRACTICE - ')
+number = 2,3,4,5,1,2,3,92,39
+
 
