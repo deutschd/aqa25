@@ -1,3 +1,5 @@
+from operator import truediv
+
 number = 0
 while number <= 10:
     print(number ** 2)
@@ -105,19 +107,29 @@ print('\n\tPRACTICE - SUM BETWEEN RANGE 5-10 = 5+6+7+8+9+10')
 # print(sum_numb)
 
 print('\n\tPRACTICE - HOW MANY HOURS YOU ARE AWAKE')
-start_day = int(input('When did you wake up?(0-22): '))
-awake_hours = 0
-calories_sum = 0
-for hour in range (start_day, 23):
-    calories = int(input('How many calories did you eat?: '))
-    calories_sum += calories
-    if calories_sum > 2000:
-        print('Too much food, time to sleep now')
+# start_day = int(input('When did you wake up?(0-22): '))
+# awake_hours = 0
+# calories_sum = 0
+# for hour in range (start_day, 23):
+#     calories = int(input('How many calories did you eat?: '))
+#     calories_sum += calories
+#     if calories_sum > 2000:
+#         print('Too much food, time to sleep now')
+#         break
+#     awake_hours += 1
+# print('Total calories:', calories_sum)
+# print('You did not sleep for:', awake_hours)
+
+
+print('\n\tAlgorithms with FOR RANGE')
+number = 27644437 # int(input('Enter number: '))
+isPrime = True
+for divider in range(2, number):
+    if number % divider == 0:
+        isPrime = False
         break
-    awake_hours += 1
-print('Total calories:', calories_sum)
-print('You did not sleep for:', awake_hours)
-
-
-
+if isPrime:
+    print('Prime number')
+else:
+    print('sostavnoe:')
 
