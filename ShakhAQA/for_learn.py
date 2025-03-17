@@ -162,6 +162,30 @@ for facts in range(range_factorial):
 print(factorial_total)
 
 
+print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
+students = int(input('How many students?: '))
+five = 0
+four = 0
+three = 0
+for scores in range(students):
+    which_score = int(input('Please enter a score(5-4-3): '))
+    if which_score == 5:
+        five += 1
+    elif which_score == 4:
+        four += 1
+    elif which_score == 3:
+        three += 1
+    else:
+        print('Please enter only 5-4-3')
+print('Number of all attendants:', students)
+if five > four and five > three:
+    print('Students with 5 are more:', five)
+elif four > five and four > three:
+    print('Students with 4 more:', four)
+elif three > four and three > five:
+    print('Students with 3 more:', three)
+else:
+    print('There is an equal number of scores or something wrong...')
 
 
 
