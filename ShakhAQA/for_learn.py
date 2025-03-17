@@ -1,3 +1,5 @@
+from operator import truediv
+
 number = 0
 while number <= 10:
     print(number ** 2)
@@ -105,18 +107,61 @@ print('\n\tPRACTICE - SUM BETWEEN RANGE 5-10 = 5+6+7+8+9+10')
 # print(sum_numb)
 
 print('\n\tPRACTICE - HOW MANY HOURS YOU ARE AWAKE')
-start_day = int(input('When did you wake up?(0-22): '))
-awake_hours = 0
-calories_sum = 0
-for hour in range (start_day, 23):
-    calories = int(input('How many calories did you eat?: '))
-    calories_sum += calories
-    if calories_sum > 2000:
-        print('Too much food, time to sleep now')
-        break
-    awake_hours += 1
-print('Total calories:', calories_sum)
-print('You did not sleep for:', awake_hours)
+# start_day = int(input('When did you wake up?(0-22): '))
+# awake_hours = 0
+# calories_sum = 0
+# for hour in range (start_day, 23):
+#     calories = int(input('How many calories did you eat?: '))
+#     calories_sum += calories
+#     if calories_sum > 2000:
+#         print('Too much food, time to sleep now')
+#         break
+#     awake_hours += 1
+# print('Total calories:', calories_sum)
+# print('You did not sleep for:', awake_hours)
+
+
+print('\n\tAlgorithms with FOR RANGE')
+# number = 27644437 # int(input('Enter number: '))
+# isPrime = True
+# for divider in range(2, number):
+#     if number % divider == 0:
+#         isPrime = False
+#         break
+# if isPrime:
+#     print('Prime number')
+# else:
+#     print('sostavnoe:')
+
+print('\tPRACTICE - POSITIVE AND EVEN')
+
+those_numbers = 0
+for positive_even in -14, 10, 4, -12, 3, 5, 12, -10:
+    if (positive_even % 2 == 0) and (positive_even > 0):
+        print('your number is:', positive_even)
+        those_numbers += 1
+    else:
+        print('is odd or negative: ', positive_even)
+
+print('Positive and even numbers from list:', those_numbers)
+
+print('\tPRACTICE - AVERAGE SALARY')
+# counter_salary = 0
+# for salary in range(12):
+#     monthly_salary = int(input('Enter monthly salary: '))
+#     counter_salary += monthly_salary
+# print(counter_salary/12)
+
+print('\tPRACTICE - FACTORIAL(N!)') # n! = 1*2*3*n
+factorial_total = 1
+range_factorial = int(input('Give me factorial(n): '))
+for facts in range(range_factorial):
+    facts += 1
+    factorial_total *= facts
+    print('number sequence:', facts, 'factorial until number:', factorial_total)
+print(factorial_total)
+
+
 
 
 
