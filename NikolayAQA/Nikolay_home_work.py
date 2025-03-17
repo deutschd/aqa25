@@ -278,3 +278,109 @@
 # while user_input != pswrd :
 #     user_input = input("Введите пароль: ")
 # print(info)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#6.2 Прерывание цикла, оператор break
+
+# n=6
+# total = 0
+#
+# while n :
+# 	print("process n" , n)
+# 	total += n
+# 	n -= 1
+#
+# print("total: " , total)
+
+
+
+# n=6
+# total = 0
+#
+# while n :
+# 	print("process n" , n)
+# 	if n < 4 :
+# 		break
+# 	total += n
+# 	n -= 1
+
+
+
+# number = 123456
+# nums_total = 0
+#
+# while number :
+# 	remaider = number % 10
+# 	nums_total += remaider
+# 	number //= 10
+# print("nums_total:", nums_total)
+#
+# print("total: " , total)
+
+
+
+# number = 123456
+# nums_total = 0
+#
+# while number :
+# 	remaider = number % 10
+# 	if remaider < 4 :
+# 		break
+# 	nums_total += remaider
+# 	number //= 10
+# print("nums_total:", nums_total)
+#
+# print("total: " , total)
+
+
+
+# memory = None
+#
+# while True :
+# 	command = input("Command:")
+# 	if command == "r" :
+# 		print("Memory:", memory)
+# 	elif command == "w" :
+# 		memory = input("Remember:")
+# 	elif command == "q" :
+# 		print("Bye!")
+# 		break
+# 	else:
+# 		print("Know commands : r , w , q")
+
+#6.5 Практическая работа
+
+# counter = 0
+#
+# while counter < 10 :
+# 	counter += 1
+# 	if counter %3 != 0 :
+# 		squared = counter * counter
+# 		print(counter , squared)
+#
+#
+#
+# counter = 0
+#
+# while counter < 10 :
+# 	counter += 1
+# 	if counter %3 == 0 :
+# 		print("skip" , counter)
+# 		continue
+# 	squared = counter * counter
+# 	print(counter , squared)
+#
+#
+#
+# counter = 0
+#
+# while True < 10 :
+# 	counter += 1
+# 	if counter > 10 :
+# 		break
+# 	if counter %3 == 0 :
+# 		print("skip" , counter)
+# 		continue
+# 	squared = counter * counter
+# 	print(counter , squared)
