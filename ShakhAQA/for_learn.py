@@ -189,9 +189,15 @@ print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
 
 number_unknown = 0
 give_me_n = int(input('Give me number: '))
-for sequence in range(1, give_me_n):
+for sequence in range(give_me_n):
     so_number = int(input('Enter number without repetition: '))
     if so_number >= give_me_n or so_number >= 0:
+        print('You choose:', so_number)
+    elif give_me_n == number_unknown:
+        print(give_me_n - 1)
+        break
+    number_unknown += 1
+
 
 
 
