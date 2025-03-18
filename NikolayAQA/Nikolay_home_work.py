@@ -329,9 +329,8 @@
 # 		break
 # 	nums_total += remaider
 # 	number //= 10
-# print("nums_total:", nums_total)
-#
-# print("total: " , total)
+# print("Всего чисел:", nums_total)
+# print("Сумма всех чисел: " , number)
 
 
 
@@ -348,6 +347,8 @@
 # 		break
 # 	else:
 # 		print("Know commands : r , w , q")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
 
 #6.5 Практическая работа
 
@@ -384,3 +385,23 @@
 # 		continue
 # 	squared = counter * counter
 # 	print(counter , squared)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#7.2 Цикл for. Работа со списком чисел
+# number = 0
+#
+# while number <= 10 :
+#     print(number ** 2)
+#     number += 1
+
+# for number in  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 :
+#     print(number**2)
+
+winners = 0
+
+for ticket in 345, 19, 87, 1020, 431 :
+    if ticket %5 == 0 :
+        print(ticket, "- Lucky ticket!")
+        winners += 1
+print("Total winners:", winners)
