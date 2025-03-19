@@ -398,10 +398,58 @@
 # for number in  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 :
 #     print(number**2)
 
-winners = 0
+# winners = 0
+#
+# for ticket in 345, 19, 87, 1020, 431 :
+#     if ticket %5 == 0 :
+#         print(ticket, "- Lucky ticket!")
+#         winners += 1
+# print("Total winners:", winners)
 
-for ticket in 345, 19, 87, 1020, 431 :
-    if ticket %5 == 0 :
-        print(ticket, "- Lucky ticket!")
-        winners += 1
-print("Total winners:", winners)
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#7.3 Функция range
+
+# text = "hello"
+# for word_count in range(5) :
+# 	print(text)
+
+# for number in range(10) :
+# 	print(number ** 2)
+
+
+
+# ttl_mounts = int(input("Период накопления?: "))
+# summ = 0
+#
+# for month in range(ttl_mounts):
+# 	print("Месяц", month)
+# 	money = int(input("Какой взнос? "))
+# 	summ += money
+# print("За" , ttl_mounts , "месяцев накопленно" , summ , "долларов")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#7.4 Функция range с началом отсчёта
+
+# begin_number = int(input("Первое число :"))
+# end_number = int(input("Второе число"))
+#
+# for number in range(begin_number , end_number + 1) :
+# 	print(number ** 2)
+
+
+# wake_up = int(input("Время пробуждения? :"))
+# awake_hours = 0
+# calories_sum = 0
+#
+# for hour in range(wake_up , 23) :
+# 	print("Сейчас", hour , "часов")
+# 	calories = int(input("Колличество съеденных каллорий?:"))
+# 	calories_sum += calories
+# 	if calories_sum > 2000 :
+# 		print("Хорошо поел , можно и  поспать.")
+# 		break
+# 	awake_hours += 1
+# print("Съеденно каллорий за день:" , calories_sum)
+# print("Часов не спал:", awake_hours)
