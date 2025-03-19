@@ -187,16 +187,15 @@ print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
 # else:
 #     print('There is an equal number of scores or something wrong...')
 
-number_unknown = 0
-give_me_n = int(input('Give me number: '))
-for sequence in range(give_me_n):
-    so_number = int(input('Enter number without repetition: '))
-    if so_number >= give_me_n or so_number >= 0:
-        print('You choose:', so_number)
-    elif give_me_n == number_unknown:
-        print(give_me_n - 1)
-        break
-    number_unknown += 1
+N = int(input('Enter number until: '))
+# total = N*(N+1)//2 # arithmetic progression geometric sn=a1(1-r^n)/1-r
+# for number_total in range(1, N + 1):
+#     num = int(input('What did you choose?: '))
+#     total -= num
+# else:
+#     print('We lost this one:', total)
+
+
 
 
 
