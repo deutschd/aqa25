@@ -187,13 +187,26 @@ print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
 # else:
 #     print('There is an equal number of scores or something wrong...')
 
-N = int(input('Enter number until: '))
+# N = int(input('Enter number until: '))
 # total = N*(N+1)//2 # arithmetic progression geometric sn=a1(1-r^n)/1-r
 # for number_total in range(1, N + 1):
 #     num = int(input('What did you choose?: '))
 #     total -= num
 # else:
 #     print('We lost this one:', total)
+
+print('Algorithms with for in range')
+print('Prime number')
+isPrime = True
+number = int(input('Enter number: '))
+for divider in range(2, number):
+    if number % divider == 0:
+        isPrime = False
+        break
+if isPrime:
+    print('Number is Prime')
+else:
+    print('Number is ordinary')
 
 
 
