@@ -197,20 +197,28 @@ print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
 
 print('Algorithms with for in range')
 print('Prime number')
-isPrime = True
-number = int(input('Enter number: '))
-for divider in range(2, number):
-    if number % divider == 0:
-        isPrime = False
+# isPrime = True
+# number = int(input('Enter number: '))
+# for divider in range(2, number):
+#     if number % divider == 0:
+#         isPrime = False
+#         break
+# if isPrime:
+#     print('Number is Prime')
+# else:
+#     print('Number is ordinary')
+sumnumb = 0
+enterdif = 0
+enter_numb = 5
+for numbersum in range(1,5):
+    numberhere = int(input('Enter numb'))
+    if numberhere == 5:
+        numbersum -= 1
+        sumnumb = enterdif - sumnumb
         break
-if isPrime:
-    print('Number is Prime')
-else:
-    print('Number is ordinary')
-
-
-
-
+    enterdif += numberhere
+print(sumnumb, 'sumnub')
+print('enterdif', enterdif)
 
 
 
