@@ -207,18 +207,19 @@ print('Prime number')
 #     print('Number is Prime')
 # else:
 #     print('Number is ordinary')
-sumnumb = 0
-enterdif = 0
-enter_numb = 5
-for numbersum in range(1,5):
-    numberhere = int(input('Enter numb'))
-    if numberhere == 5:
-        numbersum -= 1
-        sumnumb = enterdif - sumnumb
-        break
-    enterdif += numberhere
-print(sumnumb, 'sumnub')
-print('enterdif', enterdif)
+print('\n\tPRACTICE - ENTER FROM 1 TO N AND FIND WHICH ONE YOU DID NOT TYPE')
+sum_numb = 0
+enter_dif = 1
+numbers_have_sum = 0
+for number_sum in range(1,5):
+
+    number_add = int(input('Choose number: '))
+    numbers_have_sum += number_add
+    enter_dif += number_sum + 1
+    print('enter_dif', enter_dif)
+
+print('The hidden number:', enter_dif - numbers_have_sum)
+print('I GOT IT OOOOOOOOOOOOOOOOOOOOOOOO')
 
 
 
