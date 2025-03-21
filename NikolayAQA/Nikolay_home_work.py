@@ -453,3 +453,52 @@
 # 	awake_hours += 1
 # print("Съеденно каллорий за день:" , calories_sum)
 # print("Часов не спал:", awake_hours)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#8.2 Алгоритмические задачи со счётными циклами
+
+# n = int(input("Введите число :"))
+# number = 1
+# while number <= n :
+# 	print(number ** 3)
+# 	number += 1
+#
+# n = int(input("Введите число :"))
+# for number in range (n+1) :
+# 	if number %2 == 0 :
+# 		print(number, "** 3" , number ** 3)
+#
+# n = int(input("Введите число :"))
+# for number in range (n + 1) :
+# 	number *= 2
+# 	print(number, "** 3" , number ** 3)
+#
+# ttlhours = int(input("Введите кол-во часов:"))
+# cells = 1
+#
+# for hour in range (1, ttlhours + 1) :
+# 	cells *=2
+# 	print("Прошло часов :" , hour)
+# 	print("Кол-во клеток :" , cells)
+# 	print("Осталось часов:" , ttlhours - hour)
+# print("Исследование завешено")
+#
+# ttlhours = int(input("Введите кол-во часов:"))
+# cells = 1
+#
+# for hour in range (1, ttlhours // 3 + 1) :
+# 	cells *=2
+# 	print("Прошло часов :" , hour * 3)
+# 	print("Кол-во клеток :" , cells)
+# 	print("Осталось часов:" , ttlhours - hour *3)
+# 	print()
+# print("Исследование завешено")
+
+
+
+
+
+
+
+
