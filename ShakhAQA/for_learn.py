@@ -187,19 +187,36 @@ print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
 # else:
 #     print('There is an equal number of scores or something wrong...')
 
-number_unknown = 0
-give_me_n = int(input('Give me number: '))
-for sequence in range(give_me_n):
-    so_number = int(input('Enter number without repetition: '))
-    if so_number >= give_me_n or so_number >= 0:
-        print('You choose:', so_number)
-    elif give_me_n == number_unknown:
-        print(give_me_n - 1)
-        break
-    number_unknown += 1
+# N = int(input('Enter number until: '))
+# total = N*(N+1)//2 # arithmetic progression geometric sn=a1(1-r^n)/1-r
+# for number_total in range(1, N + 1):
+#     num = int(input('What did you choose?: '))
+#     total -= num
+# else:
+#     print('We lost this one:', total)
 
+print('Algorithms with for in range')
+print('Prime number')
+# isPrime = True
+# number = int(input('Enter number: '))
+# for divider in range(2, number):
+#     if number % divider == 0:
+#         isPrime = False
+#         break
+# if isPrime:
+#     print('Number is Prime')
+# else:
+#     print('Number is ordinary')
+print('\n\tPRACTICE - ENTER FROM 1 TO N AND FIND WHICH ONE YOU DID NOT TYPE')
+sum_numb = 0
+enter_dif = 1
+numbers_have_sum = 0
+for number_sum in range(1,5):
 
+    number_add = int(input('Choose number: '))
+    numbers_have_sum += number_add
+    enter_dif += number_sum + 1
+    print('enter_dif', enter_dif)
 
-
-
-
+print('The hidden number:', enter_dif - numbers_have_sum)
+print('I GOT IT OOOOOOOOOOOOOOOOOOOOOOOO')
