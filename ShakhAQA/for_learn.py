@@ -195,8 +195,8 @@ print('\tPRACTICE - 5, 4, 3 SCORE MORE?')
 # else:
 #     print('We lost this one:', total)
 
-print('Algorithms with for in range')
-print('Prime number')
+print('\tAlgorithms with for in range')
+print('\tPrime number')
 # isPrime = True
 # number = int(input('Enter number: '))
 # for divider in range(2, number):
@@ -207,16 +207,58 @@ print('Prime number')
 #     print('Number is Prime')
 # else:
 #     print('Number is ordinary')
+
 print('\n\tPRACTICE - ENTER FROM 1 TO N AND FIND WHICH ONE YOU DID NOT TYPE')
-sum_numb = 0
-enter_dif = 1
-numbers_have_sum = 0
-for number_sum in range(1,5):
+# sum_numb = 0
+# enter_dif = 1
+# numbers_have_sum = 0
+# for number_sum in range(1,5):
+#
+#     number_add = int(input('Choose number: '))
+#     numbers_have_sum += number_add
+#     enter_dif += number_sum + 1
+#     print('enter_dif', enter_dif)
+# print('The hidden number:', enter_dif - numbers_have_sum)
+# print('I GOT IT OOOOOOOOOOOOOOOOOOOOOOOO')
 
-    number_add = int(input('Choose number: '))
-    numbers_have_sum += number_add
-    enter_dif += number_sum + 1
-    print('enter_dif', enter_dif)
 
-print('The hidden number:', enter_dif - numbers_have_sum)
-print('I GOT IT OOOOOOOOOOOOOOOOOOOOOOOO')
+print('\n\tFOR LEARN - HARD LVL. ALERT!')
+print('\n\tFOR LEARN - HARD LVL. ALERT!!')
+print('\n\tFOR LEARN - HARD LVL. ALERT!!!')
+print('\tENTER FROM 1 TO N AND FIND ONE YOU DID NOT')
+# total_cards = int(input('Enter total card number: '))
+# #  if it was math -> total_sum = (1+total_cards)/2 * total_cards
+# total_sum = 0
+# remaining_sum = 0
+# for card in range(1, total_cards + 1):
+#     total_sum += card
+# for card in range(total_cards - 1):
+#     remaining_card = int(input('Number of card: '))
+#     remaining_sum += remaining_card
+# print('Number of lost one:', total_sum - remaining_sum)
+
+
+print('\n\tALGORITHMIC FOR')
+number = 1
+while number <= 10:
+    print(number ** 3)
+    number += 1
+
+n = 10
+for number in range(1, (n//2) + 1):
+    # if number % 2 == 0:
+    number *= 2
+    print(number, '** 3 =', number ** 3)
+
+
+print('\n\tDIVIDING CELLS')
+total_hours = 6 # int(input)
+cells = 1
+for hour in range(1, total_hours // 3 + 1):
+    cells *= 2
+    print('hour', hour * 3)
+    print('number of cells', cells)
+    print('hours left', total_hours - hour * 3)
+    print()
+print('expetiment end')
+
