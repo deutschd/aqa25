@@ -220,7 +220,3 @@ for number_sum in range(1,5):
 
 print('The hidden number:', enter_dif - numbers_have_sum)
 print('I GOT IT OOOOOOOOOOOOOOOOOOOOOOOO')
-
-
-
-
