@@ -252,7 +252,7 @@ for number in range(1, (n//2) + 1):
 
 
 print('\n\tDIVIDING CELLS')
-total_hours = 6 # int(input)
+total_hours = 15 # int(input)
 cells = 1
 for hour in range(1, total_hours // 3 + 1):
     cells *= 2
@@ -260,5 +260,5 @@ for hour in range(1, total_hours // 3 + 1):
     print('number of cells', cells)
     print('hours left', total_hours - hour * 3)
     print()
-print('expetiment end')
+print('experiment end')
 
