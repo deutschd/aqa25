@@ -269,6 +269,13 @@ for number in range(1, n//2 + 1):
     print(number,'number in ^3:', number ** 3)
 
 print('\tPRACTICE - DIVIDING CELLS')
-total_hours = 10 # int(input)
-cells = 1
-for hour in range(1, total_hours //3 + 1)
+# total_hours = 10 # int(input)
+# cells = 1
+# for hour in range(1, total_hours //3 + 1)
+
+random_number = 1234 # int(input('Enter number: '))
+last_number = random_number % 10
+random_number = random_number // 10
+print('last_number:', last_number)
+print('random_number:', random_number)
+
