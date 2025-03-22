@@ -262,3 +262,13 @@ for hour in range(1, total_hours // 3 + 1):
     print()
 print('experiment end')
 
+print('\tPRACTICE - ONLY EVEN ** 3')
+n = 9
+for number in range(1, n//2 + 1):
+    number *= 2
+    print(number,'number in ^3:', number ** 3)
+
+print('\tPRACTICE - DIVIDING CELLS')
+total_hours = 10 # int(input)
+cells = 1
+for hour in range(1, total_hours //3 + 1)
