@@ -269,13 +269,29 @@ for number in range(1, n//2 + 1):
     print(number,'number in ^3:', number ** 3)
 
 print('\tPRACTICE - DIVIDING CELLS')
-# total_hours = 10 # int(input)
-# cells = 1
-# for hour in range(1, total_hours //3 + 1)
+total_hours = 30 # int(input)
+cells = 1
+print('Total hours:', total_hours)
+for hour in range(1, total_hours //3 + 1):
+    cells *= 2
+    print('hours spent:', hour * 3)
+    print('number pf cells:', cells)
+    print('hours left:', total_hours - hour * 3)
+    print()
+print('The end.')
 
-random_number = 1234 # int(input('Enter number: '))
-last_number = random_number % 10
-random_number = random_number // 10
-print('last_number:', last_number)
-print('random_number:', random_number)
+# random_number = 1234 # int(input('Enter number: '))
+# last_number = random_number % 10
+# random_number = random_number // 10
+# print('last_number:', last_number)
+# print('random_number:', random_number)
+#
+# n = 130
+# n_hours = 130//60
+# n_minutes = n - n_hours * 60
+# print('hours:', n_hours, 'minutes:', n_minutes)
 
+n = 10
+for number_cube in range(1, 10//2 + 1):
+    number_cube = number_cube * 2 -1
+    print(number_cube, 'in ^2:', number_cube**2)
