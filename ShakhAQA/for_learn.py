@@ -291,7 +291,28 @@ print('The end.')
 # n_minutes = n - n_hours * 60
 # print('hours:', n_hours, 'minutes:', n_minutes)
 
+print('\tPRACTICE - ODD NUMBER ^ 2 (only with for)')
 n = 10
-for number_cube in range(1, 10//2 + 1):
-    number_cube = number_cube * 2 -1
-    print(number_cube, 'in ^2:', number_cube**2)
+for number_cube in range(1, n//2 + n % 2+ 1):
+    number_cube = number_cube * 2 - 1
+    print(number_cube, 'in ^2:', number_cube ** 2)
+    # print(number_cube, 'in ^2:', number_cube ** 2)
+    # number += 2
+
+print('\t\nFOR IN RANGE + START/STOP/STEP')
+for number in range(1, n, 2): # 1-start n-stop 2-step
+    print(number, '** 2 =', number ** 2)
+
+wake_up = 8
+water = 0
+calories_sum = 0
+for hour in range(wake_up, 23, 3):
+    water += 1
+    print('Went to eat in', hour, 'hours')
+    calories = int(input('how much food did you consume? '))
+    calories_sum += calories
+print('You drank:', water, 'l of water')
+print('You ate:', calories_sum, 'calories')
+
+
+
