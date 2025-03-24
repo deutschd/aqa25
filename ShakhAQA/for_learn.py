@@ -303,16 +303,39 @@ print('\t\nFOR IN RANGE + START/STOP/STEP')
 for number in range(1, n, 2): # 1-start n-stop 2-step
     print(number, '** 2 =', number ** 2)
 
-wake_up = 8
-water = 0
-calories_sum = 0
-for hour in range(wake_up, 23, 3):
-    water += 1
-    print('Went to eat in', hour, 'hours')
-    calories = int(input('how much food did you consume? '))
-    calories_sum += calories
-print('You drank:', water, 'l of water')
-print('You ate:', calories_sum, 'calories')
+# wake_up = 8
+# water = 0
+# calories_sum = 0
+# for hour in range(wake_up, 23, 3):
+#     water += 1
+#     print('Went to eat in', hour, 'hours')
+#     calories = int(input('how much food did you consume? '))
+#     calories_sum += calories
+# print('You drank:', water, 'l of water')
+# print('You ate:', calories_sum, 'calories')
+
+print('\tPRACTICE - 1^3, 3^3, 5^3... in start,stop,step')
+for number in range(1,10,2):
+    print(number, '** 3 =:', number ** 3)
+
+sum = 0
+print('\tPRACTICE - every 5th sum')
+for number in range(1, 22, 5):
+    print('number:', number)
+    sum += number
+print('sum of every 5th, from 1 to 22:', sum)
+
+print('\tPRACTICE - every 3h calories + water consumtion')
+# calories_sum = 0
+# water = 0
+# for wake_up in range(13, 23, 3):
+#     water += 1
+#     calories = int(input('how much calories did you consume?: '))
+#     calories_sum += calories
+# print('calories sum:', calories_sum)
+# print('water you drank:', water)
+
+
 
 
 
