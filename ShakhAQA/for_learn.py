@@ -335,7 +335,42 @@ print('\tPRACTICE - every 3h calories + water consumtion')
 # print('calories sum:', calories_sum)
 # print('water you drank:', water)
 
+print('\n\tMINUS range with start,stop,step')
+seconds = 12
+for sec in range(seconds, -1, -1):
+    print('microwave sec left:', sec)
+print('wow')
 
+# total_soldiers = 9
+# total_rules = 120 # how many rules in law
+# push_ups = 0
+# for soldier in range(total_soldiers, 0, -4):
+#     soldier_rules = int(input('Tell the number of rules?: '))
+#     if total_rules != soldier_rules:
+#         print('Bad..', 10 * soldier, 'push ups!')
+#         push_ups += 10 * soldier
+# print('Total push ups:', push_ups)
 
+print('\n\tPRACTICE - hide & seek 5-4-3-2-1')
+total_sec = 5
+for hide in range(total_sec, 0, -1):
+    print(hide)
+print("I'll find you!")
 
+print('\tPRACTICE - SOLDIER PUSH UPS')
+total_soldiers = 3
+question = 1
+push_ups = 0
+for soldier in range(total_soldiers-4, 0, -4):
+    if total_soldiers <=3:
+        break
+    soldier_rules = int(input('answer!: '))
+    if question != soldier_rules:
+        print('you do:', push_ups * 10)
+        push_ups += 10 * soldier
+print('total push ups:', push_ups)
 
+print('\tPRACTICE - hidenseek upgrade')
+seconds_count = 10
+for hiden in range(seconds_count+ seconds_count%2, 0, -2):
+    print('hiden time left:', hiden)
