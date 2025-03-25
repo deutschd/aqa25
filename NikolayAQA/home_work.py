@@ -179,4 +179,4 @@
 # sum = item_1 + item_2 + item_3
 # if sum > 10000 :
 #     sum -= sum * 0.10
-# print ("К оплате", sum)
+# print ("К оплате:", sum)
