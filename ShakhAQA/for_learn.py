@@ -269,13 +269,108 @@ for number in range(1, n//2 + 1):
     print(number,'number in ^3:', number ** 3)
 
 print('\tPRACTICE - DIVIDING CELLS')
-# total_hours = 10 # int(input)
-# cells = 1
-# for hour in range(1, total_hours //3 + 1)
+total_hours = 30 # int(input)
+cells = 1
+print('Total hours:', total_hours)
+for hour in range(1, total_hours //3 + 1):
+    cells *= 2
+    print('hours spent:', hour * 3)
+    print('number pf cells:', cells)
+    print('hours left:', total_hours - hour * 3)
+    print()
+print('The end.')
 
-random_number = 1234 # int(input('Enter number: '))
-last_number = random_number % 10
-random_number = random_number // 10
-print('last_number:', last_number)
-print('random_number:', random_number)
+# random_number = 1234 # int(input('Enter number: '))
+# last_number = random_number % 10
+# random_number = random_number // 10
+# print('last_number:', last_number)
+# print('random_number:', random_number)
+#
+# n = 130
+# n_hours = 130//60
+# n_minutes = n - n_hours * 60
+# print('hours:', n_hours, 'minutes:', n_minutes)
 
+print('\tPRACTICE - ODD NUMBER ^ 2 (only with for)')
+n = 10
+for number_cube in range(1, n//2 + n % 2+ 1):
+    number_cube = number_cube * 2 - 1
+    print(number_cube, 'in ^2:', number_cube ** 2)
+    # print(number_cube, 'in ^2:', number_cube ** 2)
+    # number += 2
+
+print('\t\nFOR IN RANGE + START/STOP/STEP')
+for number in range(1, n, 2): # 1-start n-stop 2-step
+    print(number, '** 2 =', number ** 2)
+
+# wake_up = 8
+# water = 0
+# calories_sum = 0
+# for hour in range(wake_up, 23, 3):
+#     water += 1
+#     print('Went to eat in', hour, 'hours')
+#     calories = int(input('how much food did you consume? '))
+#     calories_sum += calories
+# print('You drank:', water, 'l of water')
+# print('You ate:', calories_sum, 'calories')
+
+print('\tPRACTICE - 1^3, 3^3, 5^3... in start,stop,step')
+for number in range(1,10,2):
+    print(number, '** 3 =:', number ** 3)
+
+sum = 0
+print('\tPRACTICE - every 5th sum')
+for number in range(1, 22, 5):
+    print('number:', number)
+    sum += number
+print('sum of every 5th, from 1 to 22:', sum)
+
+print('\tPRACTICE - every 3h calories + water consumtion')
+# calories_sum = 0
+# water = 0
+# for wake_up in range(13, 23, 3):
+#     water += 1
+#     calories = int(input('how much calories did you consume?: '))
+#     calories_sum += calories
+# print('calories sum:', calories_sum)
+# print('water you drank:', water)
+
+print('\n\tMINUS range with start,stop,step')
+seconds = 12
+for sec in range(seconds, -1, -1):
+    print('microwave sec left:', sec)
+print('wow')
+
+# total_soldiers = 9
+# total_rules = 120 # how many rules in law
+# push_ups = 0
+# for soldier in range(total_soldiers, 0, -4):
+#     soldier_rules = int(input('Tell the number of rules?: '))
+#     if total_rules != soldier_rules:
+#         print('Bad..', 10 * soldier, 'push ups!')
+#         push_ups += 10 * soldier
+# print('Total push ups:', push_ups)
+
+print('\n\tPRACTICE - hide & seek 5-4-3-2-1')
+total_sec = 5
+for hide in range(total_sec, 0, -1):
+    print(hide)
+print("I'll find you!")
+
+print('\tPRACTICE - SOLDIER PUSH UPS')
+total_soldiers = 3
+question = 1
+push_ups = 0
+for soldier in range(total_soldiers-4, 0, -4):
+    if total_soldiers <=3:
+        break
+    soldier_rules = int(input('answer!: '))
+    if question != soldier_rules:
+        print('you do:', push_ups * 10)
+        push_ups += 10 * soldier
+print('total push ups:', push_ups)
+
+print('\tPRACTICE - hidenseek upgrade')
+seconds_count = 10
+for hiden in range(seconds_count+ seconds_count%2, 0, -2):
+    print('hiden time left:', hiden)
