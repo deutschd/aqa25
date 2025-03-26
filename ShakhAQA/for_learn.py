@@ -370,7 +370,7 @@ for soldier in range(total_soldiers-4, 0, -4):
         push_ups += 10 * soldier
 print('total push ups:', push_ups)
 
-print('\tPRACTICE - hidenseek upgrade')
+print('\tPRACTICE - hide & seek upgrade')
 seconds_count = 10
-for hiden in range(seconds_count+ seconds_count%2, 0, -2):
-    print('hiden time left:', hiden)
+for hidden in range(seconds_count + seconds_count % 2, 0, -2):
+    print('hiden time left:', hidden)
