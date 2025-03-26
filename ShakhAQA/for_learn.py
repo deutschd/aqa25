@@ -373,4 +373,20 @@ print('total push ups:', push_ups)
 print('\tPRACTICE - hide & seek upgrade')
 seconds_count = 10
 for hidden in range(seconds_count + seconds_count % 2, 0, -2):
-    print('hiden time left:', hidden)
+    print('hidden time left:', hidden)
+
+step = 3
+for number in range(5, 10, step):
+    print(number, "** 2 =", number ** 2)
+
+print('\n\tPRACTICE END FOR')
+print('\tPRACTICE - Month to survive with food')
+months = 0
+for cosmic_food in range(100, 0, -4):
+    months+= 1
+print('months to survive:', months)
+
+number_of_people = 100
+every_5_to_call = 5
+for people_to_call in range(0, number_of_people, every_5_to_call):
+    how_much =
