@@ -386,7 +386,14 @@ for cosmic_food in range(100, 0, -4):
     months+= 1
 print('months to survive:', months)
 
-number_of_people = 100
+print('\tPRACTICE - every 5 and sum')
+number_of_people = 20
 every_5_to_call = 5
+money = 0
 for people_to_call in range(0, number_of_people, every_5_to_call):
-    how_much =
+    how_much = int(input('HOW MUCH MONEY YOU HAVE?: '))
+    money += how_much
+    print('guy to have money #:', people_to_call)
+    print('ALL MONEY:', money)
+print('we have...', money, 'of money')
+
