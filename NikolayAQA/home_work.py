@@ -218,3 +218,35 @@
 #     print("X больше Y")
 # else:
 #     print("X равен Y")
+
+# `````````````````Дз```````````````````````#
+# course_price = 75000
+# your_wallet = 78500
+# payment = int(input("Введите сумму покупки:"))
+#
+# if payment <= your_wallet:
+#     your_wallet -= payment
+# if your_wallet < 5000:
+#     your_wallet += 1000
+#     print("Сделана скидка")
+#     print("Курс успешно приобретён!")
+# else:
+#     print("Остаток на счету: ", your_wallet)
+#     print("Хорошего дня!")
+
+# `````````````````Дз```````````````````````#
+# course_price = 75000
+# your_wallet = 78500
+#
+# if your_wallet >= course_price:
+#     your_wallet -= course_price
+#
+#     if your_wallet < 5000:
+#         your_wallet += 1000
+#         print("Сделана скидка")
+#     print("Курс успешно приобретён!")
+# else:
+#     print("Не хватает денег на счету")
+#
+# print(f"Остаток на счету: {your_wallet}")
+# print("Хорошего дня!")
