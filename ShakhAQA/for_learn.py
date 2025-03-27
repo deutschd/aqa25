@@ -397,5 +397,63 @@ print('\tPRACTICE - every 5 and sum')
 #     print('ALL MONEY:', money)
 # print('we have...', money, 'of money')
 
+print('\tPRACTICE - MICROWAVE timer')
+# reverse_timer = int(input('Enter microwave time: '))
+# allocated_time = 0
+# for timer in range(reverse_timer, -1, -1):
+#     response = int(input('Take food?(1=yes, no=0): '))
+#     if response == 1:
+#         print('Your food is ready!')
+#         print('Timer is frozen on:', timer)
+#         break
+#     elif response == 0:
+#         print('Oh, it is not...ok')
+#     else:
+#         print('please enter only 1 or 0')
+#     print('Time left:', timer)
 
+print('\tPRACTICE - a,b,c = all numbers from a to b - c')
+a = 1
+b = 5
+c = 10
+a_b_line = 0
+if a >= b:
+    for line in range(b, a + 1, 1):
+        print('line:', line)
+        a_b_line += line
+else:
+    for line in range(b, a - 1, -1):
+        print('line:', line)
+        a_b_line += line
+print('line(a to b)=', a_b_line)
+print('line - c    =', a_b_line - c)
+
+print('\tPRACTICE - ')
+a = -2
+b = 2
+reverse = a
+if a>b:
+    a, b = b, a
+else:
+    print('continue')
+for line in range(b, a - 1, -1):
+    x = line
+    y = (x ** 3) + (2 * (x ** 2)) - (4 * x) + 1
+    print('x    =', x)
+    print('y(x) =', y)
+    print()
+print()
+
+scholarship = 10000
+expenses = 12000
+inflation = 0.03
+difference_sum = 0
+for life_in_uni in range(10):
+    difference = expenses - scholarship
+    difference_sum += difference
+    print('expenses:', int(expenses), "you don't have:", int(difference_sum))
+    expenses *= 1+inflation
+
+    print('life expenses:', life_in_uni)
+print('ask', int(difference_sum), 'from parents')
 
