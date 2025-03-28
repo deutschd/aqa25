@@ -457,3 +457,34 @@ for life_in_uni in range(10):
     print('life expenses:', life_in_uni)
 print('ask', int(difference_sum), 'from parents')
 
+print('\tPRACTICE - sum from formula')
+# number_n = int(input('Enter number from 1 to N: '))
+# sum = 0
+# for n in range (0, number_n, 1):
+#     formula = ((-1) ** n) * (1 / (2 ** n))
+#     print(n)
+#     print('from formula:', formula)
+#     sum += formula
+#     print('sum go:', sum)
+# print('sum is equal:', sum)
+
+print('\tPRACTICE - Cinema')
+boys = int(input('Enter boys number: '))
+girls = int(input('Enter girls number: '))
+answer = ''
+if boys > 2 * girls or girls > 2 * boys:
+    print('No answer')
+elif boys >= girls:
+    k = boys - girls
+    for bgb in range(k):
+        answer += 'BGB'
+    for bg in range(girls - k):
+        answer += 'BG'
+else:
+    k = girls - boys
+    for gbg in range(k):
+        answer += 'GBG'
+    for gb in range(girls - k):
+        answer += 'GB'
+print(answer)
+
