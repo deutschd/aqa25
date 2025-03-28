@@ -487,4 +487,3 @@ else:
     for gb in range(girls - k):
         answer += 'GB'
 print(answer)
-
