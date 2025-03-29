@@ -387,13 +387,103 @@ for cosmic_food in range(100, 0, -4):
 print('months to survive:', months)
 
 print('\tPRACTICE - every 5 and sum')
-number_of_people = 20
-every_5_to_call = 5
-money = 0
-for people_to_call in range(0, number_of_people, every_5_to_call):
-    how_much = int(input('HOW MUCH MONEY YOU HAVE?: '))
-    money += how_much
-    print('guy to have money #:', people_to_call)
-    print('ALL MONEY:', money)
-print('we have...', money, 'of money')
+# number_of_people = 20
+# every_5_to_call = 5
+# money = 0
+# for people_to_call in range(0, number_of_people, every_5_to_call):
+#     how_much = int(input('HOW MUCH MONEY YOU HAVE?: '))
+#     money += how_much
+#     print('guy to have money #:', people_to_call)
+#     print('ALL MONEY:', money)
+# print('we have...', money, 'of money')
 
+print('\tPRACTICE - MICROWAVE timer')
+# reverse_timer = int(input('Enter microwave time: '))
+# allocated_time = 0
+# for timer in range(reverse_timer, -1, -1):
+#     response = int(input('Take food?(1=yes, no=0): '))
+#     if response == 1:
+#         print('Your food is ready!')
+#         print('Timer is frozen on:', timer)
+#         break
+#     elif response == 0:
+#         print('Oh, it is not...ok')
+#     else:
+#         print('please enter only 1 or 0')
+#     print('Time left:', timer)
+
+print('\tPRACTICE - a,b,c = all numbers from a to b - c')
+a = 1
+b = 5
+c = 10
+a_b_line = 0
+if a >= b:
+    for line in range(b, a + 1, 1):
+        print('line:', line)
+        a_b_line += line
+else:
+    for line in range(b, a - 1, -1):
+        print('line:', line)
+        a_b_line += line
+print('line(a to b)=', a_b_line)
+print('line - c    =', a_b_line - c)
+
+print('\tPRACTICE - ')
+a = -2
+b = 2
+reverse = a
+if a>b:
+    a, b = b, a
+else:
+    print('continue')
+for line in range(b, a - 1, -1):
+    x = line
+    y = (x ** 3) + (2 * (x ** 2)) - (4 * x) + 1
+    print('x    =', x)
+    print('y(x) =', y)
+    print()
+print()
+
+scholarship = 10000
+expenses = 12000
+inflation = 0.03
+difference_sum = 0
+for life_in_uni in range(10):
+    difference = expenses - scholarship
+    difference_sum += difference
+    print('expenses:', int(expenses), "you don't have:", int(difference_sum))
+    expenses *= 1+inflation
+
+    print('life expenses:', life_in_uni)
+print('ask', int(difference_sum), 'from parents')
+
+print('\tPRACTICE - sum from formula')
+# number_n = int(input('Enter number from 1 to N: '))
+# sum = 0
+# for n in range (0, number_n, 1):
+#     formula = ((-1) ** n) * (1 / (2 ** n))
+#     print(n)
+#     print('from formula:', formula)
+#     sum += formula
+#     print('sum go:', sum)
+# print('sum is equal:', sum)
+
+print('\tPRACTICE - Cinema')
+boys = int(input('Enter boys number: '))
+girls = int(input('Enter girls number: '))
+answer = ''
+if boys > 2 * girls or girls > 2 * boys:
+    print('No answer')
+elif boys >= girls:
+    k = boys - girls
+    for bgb in range(k):
+        answer += 'BGB'
+    for bg in range(girls - k):
+        answer += 'BG'
+else:
+    k = girls - boys
+    for gbg in range(k):
+        answer += 'GBG'
+    for gb in range(girls - k):
+        answer += 'GB'
+print(answer)
