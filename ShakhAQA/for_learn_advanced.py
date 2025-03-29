@@ -1,0 +1,1 @@
+print('\tJOB WITH STRING')
