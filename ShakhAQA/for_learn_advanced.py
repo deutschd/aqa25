@@ -37,4 +37,29 @@ print('\n\tLITERATURE SCORE IN CLASS')
 #     badGradeCount += 1
 # print('Number of 2: ', badGradeCount)
 
-print('\n\tPRACTICE - ')
+print('\n\tPRACTICE - Literature. did u read?')
+# students = 8
+# badGradeCount = 0
+# for student in range(students):
+#     answer = input('Who wrote that?: ')
+#     if answer == 'Pushkin' or answer == 'pushkin':
+#         print('Correct')
+#         break
+#     print('It is wrong')
+#     badGradeCount += 1
+# print('Number of bad grades=', badGradeCount)
+
+print('\n\tPRACTICE - What is the password?')
+# i_expect = input('What is the password?: ')
+# while i_expect != 'Gold':
+#     print("Incorrect pass!")
+#     i_expect = input('Try again: ')
+# print('Well done!')
+
+print('\n\tPRACTICE - What is the password?')
+
+name = 'Shakh' # input('What is your name?: ')
+print(name + ', buy elephant')
+word = 'Okay, I will' # input('= ')
+print('Everybody is saying' + word + ', but you buy elephant!')
+
