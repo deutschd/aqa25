@@ -61,5 +61,27 @@ print('\n\tPRACTICE - What is the password?')
 name = 'Shakh' # input('What is your name?: ')
 print(name + ', buy elephant')
 word = 'Okay, I will' # input('= ')
-print('Everybody is saying' + word + ', but you buy elephant!')
+print('Everybody is saying ' + word + ', but you buy elephant!')
+
+print('\n\tFOR IN STRIG:')
+print('PYTHON EVERY LETTER IN new String')
+phrase = 'Python' # int(input('Enter phrase: '))
+for symbol in phrase:
+    print(symbol * 3)
+    print('=' * 10)
+
+print('HOW MANY TIMES WE FACE EXACT LETTER')
+text = input('Enter text: ')
+first_sym = input('Enter the first letter: ')
+second_sym = input('Enter the second letter: ')
+firstSymCount = 0
+secondSymCount = 0
+
+for symbol in text:
+    if symbol == first_sym:
+        firstSymCount += 1
+    if symbol == second_sym:
+        secondSymCount += 1
+print('Number of letters', first_sym, '=', firstSymCount)
+print('Number of letters', second_sym, '=', secondSymCount)
 
