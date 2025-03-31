@@ -335,9 +335,40 @@
 # `````````````````Дз```````````````````````#
 # rating = int(input('Что получил по математике? '))
 #
-# if rating == 2 or rating == 3:
-#     print('Плохо. Марш учиться!')
-# elif rating == 4 or rating == 5:
-#     print('Молодец! Можешь отдохнуть.')
+#if rating == 2 or rating == 3:
+#   print('Плохо. Марш учиться!')
+#elif rating == 4 or rating == 5:
+#   print('Молодец! Можешь отдохнуть.')
+#else:
+#   print('Неверная оценка.')
+
+# `````````````````Дз```````````````````````#
+# firs_number = int(input("Введите первое число :"))
+# second_number = int(input("Введите второе число :"))
+# third_number = int(input("Введите третье число :"))
+#
+# if firs_number == second_number == third_number:
+#     print("Все числа равны")
+# elif firs_number == second_number or firs_number == third_number or second_number == third_number:
+#     print("Два одинаковых числа")
 # else:
-#     print('Неверная оценка.')
+#     print("Нет совпадений :(")
+#
+# `````````````````Дз```````````````````````#
+# price = int(input("Введите цену :"))
+# area = int(input("Введите площадь :"))
+#
+# if area >= 100 and price <= 10000000 :
+#     print("Ппросторное гнёздышко")
+# elif area >= 80 and price <= 7000000 :
+#     print("В тестноте да не в обиде ")
+# else :
+#     print("Повторите попытку позже")
+
+# `````````````````Дз```````````````````````#
+# hour = int(input("Введите час: "))
+#
+# if 8 <= hour < 14 or 15 <= hour < 18 or 20 <= hour < 22:
+#     print("Можно получить посылку")
+# else:
+#     print("Посылку получить нельзя")
