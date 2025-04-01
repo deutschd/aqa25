@@ -372,3 +372,45 @@
 #     print("Можно получить посылку")
 # else:
 #     print("Посылку получить нельзя")
+
+# `````````````````Дз```````````````````````#
+# total = 0
+# number = int(input('Введите число: '))
+#
+# while number != 0:
+#     total += number
+#     number = int(input('Введите число: '))
+#
+# print(total)
+
+# `````````````````Дз```````````````````````#
+# digit = 0
+#
+# while digit <= 91 :
+#     digit += 7
+#     print(digit)
+#
+# `````````````````Дз```````````````````````#
+# temperature = int(input("Какая температура на улице?:"))
+# distance = 0
+#
+# while temperature > 15 :
+#     distance += 20
+#     temperature -= 2
+#     if temperature <= 15 :
+#         break
+#     else :
+#         distance += 10
+# print("Пройденная дистанци :" , distance , "метров")
+
+# `````````````````Дз / gpt```````````````````````#
+# temperature = int(input("Какая температура на улице? :"))
+# distance = 0
+#
+# while temperature > 15:
+#     distance += 20  # Спортсмен пробегает 20 метров
+#     temperature -= 2  # Температура падает на 2 градуса
+#     if temperature > 15:
+#         distance += 10  # Если температура больше 15, он проходит еще 10 метров
+#
+# print("Пройденная дистанция:", distance, "метров")
