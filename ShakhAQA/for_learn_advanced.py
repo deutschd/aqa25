@@ -1,5 +1,3 @@
-from email.contentmanager import get_and_fixup_unknown_message_content
-
 print('\tSTRING')
 print('\tHOMEWORK from 8.0 GIRLS AND BOYS in THEATRE')
 boys = 3 # int(input('Enter number of boys: '))
