@@ -224,6 +224,7 @@ print('\n\tPRACTICE - CONTROLLER FOR WALL-E')
 #
 #     print('Your location:', left_right,',', top_bottom)
 
+print('\n\tPRACTICE - the LONGEST word and how many letters')
 all_text = 'well it is going to be good'
 max = 0
 current = 0
@@ -244,5 +245,13 @@ if current > max:
     longest_word = current_word
 print('The longest word has', max, 'letters and it is:', longest_word)
 
-
+print('\n\tPRACTICE - COWS MILK - ABABA - where B gives 0, A SUMS')
+sum = 0
+milk =0
+equality = 'ababa' # 2,4,6,8,10
+for correct_amount in equality:
+    milk += 2
+    if correct_amount == 'a':
+        sum+= milk
+print('sum:', sum)
 
