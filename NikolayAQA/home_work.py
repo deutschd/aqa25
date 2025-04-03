@@ -414,3 +414,73 @@
 #         distance += 10  # Если температура больше 15, он проходит еще 10 метров
 #
 # print("Пройденная дистанция:", distance, "метров")
+
+# `````````````````Дз```````````````````````#
+# number = int(input("Введите своё число :"))
+# sum_digits = 0
+#
+# while number > 0 :
+#     digit = number % 10
+#     if digit == 5 :
+#         print("Обнаружен разрыв . ")
+#         break
+#     sum_digits += digit
+#     number //= 10
+#
+# print(sum_digits)
+
+# `````````````````Дз```````````````````````#
+# number = int(input("Введите своё число :"))
+# sum = 0
+#
+# while number > 0 :
+#     number = int(input("Введите своё число :"))
+#     sum += number
+#     if number < 0 :
+#         print("Недопустимое число" , number)
+#
+# print(sum)
+
+# `````````````````Дз / gpt```````````````````````#
+# count = 0
+#
+# number = int(input("Введите своё число: "))
+# while number >= 0 :
+#     count += 1
+#     number = int(input("Введите своё число: "))
+#
+# print(count)
+
+# `````````````````Дз```````````````````````#
+# bank = int(input("Введите стартовую сумму:"))
+#
+# while bank < 10000 :
+#     number = int(input("Введите число от 1 до 6 :"))
+#     if number == 3 :
+#         print("Вы проиграли всё!")
+#         print("Игра закончена.")
+#         print("Итого осталось: 0 рублей")
+#         bank = 0
+#     else :
+#         bank += 500
+#         print("Вы выиграли 500p")
+#         print ("Общая сумма : " , bank)
+
+# `````````````````Дз / gpt```````````````````````#
+# time = 10
+#
+# while time >= 0:
+#     if time == 0:
+#         print('Время вышло!')
+#     else:
+#         print(time)
+#     time -= 1
+
+# `````````````````Дз```````````````````````#
+# time = 11
+#
+# while time >= 0 :
+#     time -= 1
+#     print(time)
+#     if time == 0 :
+#         print ("Время закончилось, осталось " , time ,"cекунд")
