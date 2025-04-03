@@ -1,5 +1,3 @@
-from email.contentmanager import get_and_fixup_unknown_message_content
-
 print('\tSTRING')
 print('\tHOMEWORK from 8.0 GIRLS AND BOYS in THEATRE')
 boys = 3 # int(input('Enter number of boys: '))
@@ -187,7 +185,7 @@ print('\n\tPRACTICE - CREATE CREW FROM PEOPLE WHO SHOUT "HI"')
 # print('The crew consist of:', guys, 'members')
 
 print('\n\tPRACTICE - FIND POSITION OF SYMBOL "*"')
-text = 'THSisGo*od'
+text = 'THSisGo*od*go'
 where_is_star = 0
 for find in text:
     where_is_star += 1
@@ -202,27 +200,58 @@ for theatre in range(rows):
     print('\t','='*seats, '*'*metres, '='*seats)
 
 print('\n\tPRACTICE - CONTROLLER FOR WALL-E')
-left_right = 14
-top_bottom = 19
-gameplay = False
-print('Your location:', left_right,end='. ')
-print(top_bottom)
-while gameplay != True:
-    movement = input('Enter movement: ')
-    if movement == 'A' and 0 < left_right <= 15:
-        left_right -= 1
-    elif movement == 'D' and 0 < left_right <= 15:
-        left_right += 1
-    elif movement == 'W' and 0 < top_bottom <= 20:
-        top_bottom += 1
-    elif movement == 'S' and 0 < top_bottom <= 20:
-        top_bottom -= 1
-    elif movement == 'Q':
-        break
-    if left_right == 15:
-        left_right -= 1
-    if top_bottom == 21:
-        top_bottom -= 1
+# left_right = 14
+# top_bottom = 19
+# gameplay = False
+# print('Your location:', left_right,end='. ')
+# print(top_bottom)
+# while not gameplay:
+#     movement = input('Enter movement: ')
+#     if movement == 'A' and 0 < left_right <= 15:
+#         left_right -= 1
+#     elif movement == 'D' and 0 < left_right <= 15:
+#         left_right += 1
+#     elif movement == 'W' and 0 < top_bottom <= 20:
+#         top_bottom += 1
+#     elif movement == 'S' and 0 < top_bottom <= 20:
+#         top_bottom -= 1
+#     elif movement == 'Q':
+#         break
+#     if left_right == 15:
+#         left_right -= 1
+#     if top_bottom == 21:
+#         top_bottom -= 1
+#
+#     print('Your location:', left_right,',', top_bottom)
 
-    print('Your location:', left_right,',', top_bottom)
+print('\n\tPRACTICE - the LONGEST word and how many letters')
+all_text = 'well it is going to be good'
+max = 0
+current = 0
+longest_word = ''
+current_word = ''
+for text in all_text:
+    if text != ' ':
+        current += 1
+        current_word += text
+    else:
+        if current > max:
+            max = current
+            longest_word = current_word
+        current = 0
+        current_word = ''
+if current > max:
+    max = current
+    longest_word = current_word
+print('The longest word has', max, 'letters and it is:', longest_word)
+
+print('\n\tPRACTICE - COWS MILK - ABABA - where B gives 0, A SUMS')
+sum = 0
+milk =0
+equality = 'ababa' # 2,4,6,8,10
+for correct_amount in equality:
+    milk += 2
+    if correct_amount == 'a':
+        sum+= milk
+print('sum:', sum)
 
