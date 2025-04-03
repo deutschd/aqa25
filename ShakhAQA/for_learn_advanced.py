@@ -255,3 +255,40 @@ for correct_amount in equality:
         sum+= milk
 print('sum:', sum)
 
+print('\n\tPRACTICE - shacnidw sandwich first-first,last-second,second-third')
+word = 'shacnidw'
+coins = ''
+medals = ''
+count = 0
+for text in word:
+    count += 1
+    print('count:', count, 'coins:', coins, 'medals:', medals)
+    print()
+    if count % 2 == 1:
+        coins += text
+    else:
+        medals = text + medals
+print('from word', word, 'to', coins + medals)
+
+# word = input('Введите зашифрованое слово: ')
+# sum_1, sum_2 = ' ', ' '
+# count = 0
+# for letter in word:
+#     count += 1
+#     if (count % 2 == 1):
+#         sum_1 += letter
+#     else:
+#         sum_2 = letter + sum_2
+# print('Расшифрованое слово', sum_1 + sum_2)
+
+print('\n\tPRACTICE - find palindrome madam, racecar')
+word = 'aurorua'
+reversed = ''
+for letter in word:
+    reversed = letter + reversed
+    print(reversed)
+if word == reversed:
+    print('this is it')
+else:
+    print('noo way')
+
