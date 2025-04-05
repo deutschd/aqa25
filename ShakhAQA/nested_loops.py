@@ -42,5 +42,22 @@ for row in range(1, 5, 1):
     print()
 
 print('\n\tIF IN NESTED LOOPS')
-size = int(input('En'))
+print('Matrix')
+size = 5 # int(input('Enter size of table: '))
+for row in range(1, size + 1):
+    for col in range(1, size + 1):
+        if row % 2 == 0:
+            print(row, end=' ')
+        else:
+            print(col, end=' ')
+    print()
 
+for row in range(20):
+    for col in range(50):
+        if row == 9:
+            print('-', end= '')
+        elif col == 25:
+            print('|', end= '')
+        else:
+            print(' ', end= '')
+    print()
