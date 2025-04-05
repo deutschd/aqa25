@@ -291,4 +291,3 @@ if word == reversed:
     print('this is it')
 else:
     print('noo way')
-
