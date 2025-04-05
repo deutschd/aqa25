@@ -40,3 +40,6 @@ for row in range(1, 5, 1):
         if row % 2 == 0:
             print(row, end=' ')
     print()
+
+print('\n\tIF IN NESTED LOOPS')
+
