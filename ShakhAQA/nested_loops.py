@@ -42,4 +42,5 @@ for row in range(1, 5, 1):
     print()
 
 print('\n\tIF IN NESTED LOOPS')
+size = int(input('En'))
 
