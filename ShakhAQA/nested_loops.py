@@ -62,5 +62,23 @@ for row in range(20):
             print(' ', end= '')
     print()
 
+print('\n\tPRACTICE - MATRIX 5')
+size = 5
+for row in range(1, size+1, 1):
+    for col in range(1, size+1, 1):
+        if row % 2 == 0:
+            print(row, end= ' ')
+        else:
+            print(col, end= ' ')
+    print()
+
+print('\n\tPRACTICE - Black Box')
+for row in range(1,4):
+    for col in range(1,4):
+        print(row, end=' ')
+        print(col, end=' ')
+    print()
+
+
 
 
