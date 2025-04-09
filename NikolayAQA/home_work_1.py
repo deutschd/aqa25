@@ -91,3 +91,32 @@
 #     print("Нужно зайти в магазин.")
 
 # ````````````Дз на пополам с gpt````````````#
+# deposit = 100000
+# percent = 17
+# expectations = 500000
+#
+# years = 0
+#
+# while deposit < expectations:
+#     deposit += int(deposit * (percent / 100))
+#     years += 1
+#
+# print("Вы накопите желаемую сумму через :", years, "лет")
+
+# ````````````Дз на пополам с gpt````````````#
+# attempt = 0
+# digit = 6
+#
+# while True:
+#     number = int(input("Введите ваше число :"))
+#     attempt += 1
+#
+#     if number < digit:
+#         print("Число меньше, чем нужно. Попробуйте ещё раз!")
+#     elif number > digit:
+#         print("Число больше, чем нужно. Попробуйте ещё раз!")
+#     else:
+#         print("Вы угадали! Число попыток:", attempt)
+#         break
+
+# ````````````Дз на пополам с gpt````````````#
