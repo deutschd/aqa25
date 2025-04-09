@@ -1,5 +1,3 @@
-from operator import truediv
-
 number = 0
 while number <= 10:
     print(number ** 2)
