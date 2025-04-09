@@ -73,12 +73,17 @@ for row in range(1, size+1, 1):
     print()
 
 print('\n\tPRACTICE - Black Box')
-for row in range(1,4):
-    for col in range(1,4):
-        print(row, end=' ')
-        print(col, end=' ')
-    print()
+size = int(input('Enter size of matrix: '))
+for row in range(1, size + 1, 1):
+    for col in range(1, size + 1, 1):
+        if col % 3 == 0:
+            print(col, end=' ')
+        elif row % 3 == 0:
+            print(row, end=' ')
 
+        else:
+            print(row, end=' ')
+    print()
 
 
 
