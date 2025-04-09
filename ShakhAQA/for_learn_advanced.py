@@ -119,7 +119,7 @@ print('IP ADDRESS')
 # step = int(input('Enter step: '))
 # summ = 0
 #
-# print('\nIP-ADRESS:', end = ' ')
+# print('\nIP-ADDRESS:', end = ' ')
 # for count in range(3):
 #     print(number, end = '.')
 #     summ += number
