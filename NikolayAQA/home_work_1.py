@@ -205,3 +205,30 @@
 #     fctrl *= i
 #
 # print("Факториал числа", n, "равен:", fctrl)
+
+# `````````````````Дз```````````````````````#
+# exсellent = 0
+# good = 0
+# mid = 0
+#
+# for numbers in (3, 3, 4, 4, 4, 5, 5 , 5, 5, 5, 5) :
+#     if numbers == 5 :
+#         exсellent += 1 #Отличники
+#     elif numbers == 4 :
+#         good += 1 #Хорошисты
+#     else :
+#         mid += 1 #Троечники
+#
+# if   mid < exсellent > good :
+#     print("Отличников больше")
+# elif exсellent < good > mid :
+#     print("Хорошистов больше")
+# else :
+#     print("Троечников больше")
+
+
+
+
+
+
+
