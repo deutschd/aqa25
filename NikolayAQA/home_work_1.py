@@ -226,9 +226,27 @@
 # else :
 #     print("Троечников больше")
 
+# `````````````````Дз```````````````````````#
+# first_num =  int(input("Введите первое число :"))
+# second_num = int(input("Введите второе число :"))
+# digit = 0
+# mid = 0
+#
+# for nums in range (first_num , second_num + 1) :
+#     if nums % 3 == 0 :
+#         digit += nums
+#         mid += 1
+#
+# if mid > 0:
+#     result = digit / mid
+#     print("Cреднее арифметическое всех чисел из диапазона равно :" , result)
+# else:
+#     print("В указанном диапазоне нет чисел, кратных 3.")
 
-
-
-
-
-
+# `````````````````полностью от gpt ```````````````````````#
+# for digit in range(10, 100):
+#     x = digit // 10
+#     y = digit % 10
+#
+#     if digit == 3 * (x * y):
+#         print(digit)
