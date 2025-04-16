@@ -1,3 +1,6 @@
+from base64 import a85decode
+from stringprep import b1_set, b3_exceptions
+
 print('\tNESTED LOOPS')
 a = 10
 for b in range(1,10):
@@ -103,7 +106,7 @@ for row in range(size):
         elif row > col:
             print(2, end =' ')
         else:
-            print(1, end = ' ')
+            print(1, end =' ')
     print()
 
 for row in range(20):
@@ -146,4 +149,20 @@ for row in range(20):
             print(' ', end='')
     print()
 
+print('\n\tPRACTICE - Diagonal')
+size = 5 # int(input('Enter size of matrix: '))
+for row in range(size):
+    for col in range(size):
+        if row + col == size - 1:
+            print(1, end=' ')
+        elif row + col > size -1:
+            print(2, end=' ')
+        else:
+            print(0, end=' ')
 
+    print()
+# a5 b1
+# a4 bz
+# a3 b3
+# a2 base64
+# 5-1 4-2 3-3 2-4 1-5
