@@ -150,15 +150,15 @@ for row in range(20):
     print()
 
 print('\n\tPRACTICE - Diagonal')
-for row in range(5):
-    for col in range(5):
-        if row > col:
-            print(0, end=' ')
-        elif row < col:
+size = 5 # int(input('Enter size of matrix: '))
+for row in range(size):
+    for col in range(size):
+        if row + col == size - 1:
+            print(1, end=' ')
+        elif row + col > size -1:
             print(2, end=' ')
         else:
-            if row + col == 5 - 1:
-                print(1, end=' ')
+            print(0, end=' ')
 
     print()
 # a5 b1
