@@ -250,3 +250,16 @@
 #
 #     if digit == 3 * (x * y):
 #         print(digit)
+
+# `````````````````полностью от gpt ```````````````````````#
+# nums = int(input("Введите количество карточек: "))
+#
+# total_sum = nums * (nums + 1) // 2
+# entered_sum = 0
+#
+# for card in range(nums - 1):
+#     number = int(input("Введите номер оставшейся карточки: "))
+#     entered_sum += number
+#
+# missing_card = total_sum - entered_sum
+# print("Номер пропавшей карточки:", missing_card)
