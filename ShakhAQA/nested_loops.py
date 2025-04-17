@@ -155,7 +155,7 @@ for row in range(size):
     for col in range(size):
         if row + col == size - 1:
             print(1, end=' ')
-        elif row + col > size -1:
+        elif row + col > size - 1:
             print(2, end=' ')
         else:
             print(0, end=' ')
@@ -166,3 +166,30 @@ for row in range(size):
 # a3 b3
 # a2 base64
 # 5-1 4-2 3-3 2-4 1-5
+
+print('\n\t10.4 - SOLVE TASKS')
+people = 3 # int(input('Enter people: '))
+for hour in range(people + 1):
+    print('Hour left:', hour)
+    for num in range(hour, people):
+        print('Number in queue', num)
+    print()
+print('END!')
+
+print('\n\tFIND NUMBER - HOW MANY TIMES IN SEQUENCE')
+seqNum = 5 # int(input('Enter: '))sequence of numbers
+numeral = 2 # what number we should find
+while numeral < 0 or numeral > 9:
+    numeral = int(input('Number should be between 0 and 9. Enter new one: '))
+numeralCount = 0
+for num in range(seqNum):
+    print('Enter', num, 'number: ', end='')
+    number = int(input(''))
+    while number > 0:
+        if number % 10 == numeral:
+            numeralCount += 1
+        number //= 10
+print('Number', numeral, 'in sequence', numeralCount)
+
+
+
