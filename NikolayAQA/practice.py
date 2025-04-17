@@ -447,3 +447,51 @@
 # 	print("Осталось часов:" , ttlhours - hour *3)
 # 	print()
 # print("Исследование завешено")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#8.3 Функция range start, stop, step
+# n = int(input("Введите число :"))
+# for number in range (1 , n//2 + n%2 + 1) :
+#     number = number * 2 - 1
+#     print(number , "**2 =" , number ** 2)
+
+# for number in range (1 - start , n - stop , 2 - step) :
+
+# n = int(input("Введите число :"))
+# for number in range (1 , n , 2) :
+#     print(number , "**2 =" , number ** 2)
+
+
+# wake_up = int(input("Время пробуждения:"))
+# wather = 0
+# callories_sum = 0
+#
+# for hour in range (wake_up , 23 , 3):
+#     wather += 1
+#     print("Пошли есть в" , hour , "часов")
+#     callories = int(input("Введите число :"))
+#     callories_sum += callories
+#
+# print("Выпито литров воды :" , wather)
+# print("Съеденно калорий :" , callories_sum)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#8.4 Отрицательный шаг в функции range
+
+# second = int(input("Кол-во секунд :"))
+# for sec in range(second , -1 , -1):
+#     print("Осталось времени :" , sec)
+# print("Дзынь!")
+
+# ttlSoldiers = int(input("Кол-во солдат в шеренге :"))
+# ttlRules = int(input("Кол-во правил в уставе? :"))
+# push_ups = 0
+#
+# for soldiers in range(ttlSoldiers , 0 , -4):
+#     soldier_rules = int(input("Cолдат , сколько правил в уставе? :"))
+#     if ttlRules != soldier_rules :
+#         print("Не правильно!" , 10 * soldiers , "отжиманий!")
+#         push_ups += 10 * soldiers
+# print("Общее кол-во отжиамний :" , push_ups)
