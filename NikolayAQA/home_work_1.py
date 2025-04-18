@@ -263,3 +263,29 @@
 #
 # missing_card = total_sum - entered_sum
 # print("Номер пропавшей карточки:", missing_card)
+
+# `````````````````Дз```````````````````````#
+# digit = int(input("Введите число :"))
+#
+# for cube in range(0, digit + 1, 2):
+#     print(cube ** 2)
+
+# `````````````````Дз```````````````````````#
+
+# hour = int(input("Введите число часов :"))
+# cells = 1
+#
+# for division in range(3, hour + 1, 3):
+#     cells *= 2
+#     print("Прошло часов:", division)
+#     print("Количество клеток:", cells)
+#     print("Осталось часов:", hour - division)
+#     print()
+
+# `````````````````Дз```````````````````````#
+
+# n = digit = int(input("Введите число :"))
+#
+# for cube in range(1, n // 2 + n % 2 + 1):
+#     result = cube * 2 - 1
+#     print(result, "** 2 =", result ** 2)
