@@ -195,3 +195,14 @@ for hour in range(people + 1):
     for num in range(hour, people):
         print('Number in queue:', num)
     print()
+
+print('''PRACTICE - 0 1 2 3 4 5
+           1 2 3 4 5
+           2 3 4 5''')
+sum = 0
+for kil in range(5):
+    for kal in range(5):
+        sum = kil+kal
+        print(sum, end=' ')
+        if
+    print()
