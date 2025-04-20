@@ -1,6 +1,3 @@
-from base64 import a85decode
-from stringprep import b1_set, b3_exceptions
-
 print('\tNESTED LOOPS')
 a = 10
 for b in range(1,10):
@@ -177,19 +174,35 @@ for hour in range(people + 1):
 print('END!')
 
 print('\n\tFIND NUMBER - HOW MANY TIMES IN SEQUENCE')
-seqNum = 5 # int(input('Enter: '))sequence of numbers
-numeral = 2 # what number we should find
-while numeral < 0 or numeral > 9:
-    numeral = int(input('Number should be between 0 and 9. Enter new one: '))
-numeralCount = 0
-for num in range(seqNum):
-    print('Enter', num, 'number: ', end='')
-    number = int(input(''))
-    while number > 0:
-        if number % 10 == numeral:
-            numeralCount += 1
-        number //= 10
-print('Number', numeral, 'in sequence', numeralCount)
+# seqNum = 5 # int(input('Enter: '))sequence of numbers
+# numeral = 2 # what number we should find
+# while numeral < 0 or numeral > 9:
+#     numeral = int(input('Number should be between 0 and 9. Enter new one: '))
+# numeralCount = 0
+# for num in range(seqNum):
+#     print('Enter', num, 'number: ', end='')
+#     number = int(input(''))
+#     while number > 0:
+#         if number % 10 == numeral:
+#             numeralCount += 1
+#         number //= 10
+# print('Number', numeral, 'in sequence', numeralCount)
 
+print('\n\tPRACTICE - QUEUE')
+people = 10 # int(input("Enter number of people in queue: "))
+for hour in range(people + 1):
+    print('Hour left:', hour)
+    for num in range(hour, people):
+        print('Number in queue:', num)
+    print()
 
-
+print('''PRACTICE - 0 1 2 3 4 5
+           1 2 3 4 5
+           2 3 4 5''')
+sum = 0
+for kil in range(5):
+    for kal in range(5):
+        sum = kil+kal
+        print(sum, end=' ')
+        if
+    print()
