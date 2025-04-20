@@ -289,3 +289,54 @@
 # for cube in range(1, n // 2 + n % 2 + 1):
 #     result = cube * 2 - 1
 #     print(result, "** 2 =", result ** 2)
+
+# `````````````````Дз```````````````````````#
+
+# nums = int(input("До какого числа вычеслить куб? :"))
+#
+# for cube in range(1, nums + 1, 2):
+#     result = cube ** 3
+#     print(cube, " ** 3 = ", result)
+
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите число"))
+# sum = 0
+#
+# for chair in range(1, n + 1, 5):
+#     sum += chair
+#     print("Номер стула:", chair)
+#
+# print("Сумма:", sum)
+
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите кол-во секунд:"))
+#
+# for second in range(n, -1, -1):
+#     print(second)
+# print("Я иду искать!")
+
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите кол-во секунд: "))
+#
+# start = n - n % 2
+#
+# for second in range(start, 0, -2):
+#     print(second)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
