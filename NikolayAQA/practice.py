@@ -462,6 +462,7 @@
 # for number in range (1 , n , 2) :
 #     print(number , "**2 =" , number ** 2)
 
+# +++++++++++++++++++++++++++++++++++++++++++#
 
 # wake_up = int(input("Время пробуждения:"))
 # wather = 0
@@ -484,6 +485,8 @@
 # for sec in range(second , -1 , -1):
 #     print("Осталось времени :" , sec)
 # print("Дзынь!")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
 
 # ttlSoldiers = int(input("Кол-во солдат в шеренге :"))
 # ttlRules = int(input("Кол-во правил в уставе? :"))
@@ -508,4 +511,3 @@
 #     print(step)
 #     bgn_num += 5
 #     end_num += 6
-
