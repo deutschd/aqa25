@@ -326,17 +326,37 @@
 # for second in range(start, 0, -2):
 #     print(second)
 
+# `````````````````Дз```````````````````````#
 
+# bag = 100
+# monthly_consumption = 4
+# months = bag // monthly_consumption
+#
+# for month in range(1, months + 1):
+#     remaining = bag - monthly_consumption * month
+#     print("Через", month, "мес.:", remaining, "кг гречки осталось")
 
+# `````````````````Дз```````````````````````#
 
+# debt = int(input("Введите количество должников: "))
+# ttlDebt = 0
+# for sum in range(0, debt + 1, 5):
+#     print("Должник с номером", sum)
+#     answer = int(input("Сколько должны?"))
+#     ttlDebt += answer
+# print("Общая сумма долга:", ttlDebt)
 
+# `````````````````Дз```````````````````````#
 
-
-
-
-
-
-
-
-
+# reverse_timer = int(input("Введите количество секунд: "))
+#
+# for timer in range(reverse_timer, -1, -1):
+#     print("Осталось", timer, "секунд.")
+#     answer = int(input("Прервать режим разогрева? 1 = Да, еда готова / 0 = Нет: "))
+#
+#     if answer == 1:
+#         print("Ваша еда готова, можете забрать. Таймер был прерван на", timer, "секунде.")
+#         break
+#     elif timer == 0:
+#         print("Ваша еда готова, осторожно горячo!")
 
