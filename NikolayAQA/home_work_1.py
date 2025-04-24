@@ -360,3 +360,24 @@
 #     elif timer == 0:
 #         print("Ваша еда готова, осторожно горячo!")
 
+# `````````````````Дз```````````````````````#
+
+# num_1 = int(input("Введите первое число:"))
+# num_2 = int(input("Введите второе число:"))
+# num_3 = int(input("Введите делитель:"))
+# ttlsum = 0
+# ttldigit = 0
+#
+# for digit in range(num_1 , num_2 + 1):
+#     if digit % num_3 == 0 :
+#         ttlsum += digit
+#         ttldigit += 1
+#
+# if ttldigit != 0:
+#     resul = ttlsum / ttldigit
+#     print("Среднее арифметическое:", resul)
+# else:
+#     print("Нет чисел, кратных", num_3, "в этом диапазоне.")
+
+
+
