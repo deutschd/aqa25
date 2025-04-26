@@ -394,3 +394,58 @@
 
 # `````````````````Дз```````````````````````#
 
+# educational_grant = int(input("Введите стипендию: "))
+# expenses = int(input("Введите расходы на проживание: "))
+#
+# total_money_needed = 0
+#
+# for month in range(1, 11):
+#     if month > 1:
+#         expenses *= 1.03,
+#
+#     shortage = expenses - educational_grant
+#
+#     total_money_needed += shortage
+#
+#     print(f"{month} месяц: расходы = {expenses:.2f}, нехватка = {shortage:.2f}")
+#
+# print(f"Итого нужно попросить у родителей: {total_money_needed:.2f} рублей")
+
+# `````````````````Дз```````````````````````#
+
+# N = int(input("Введите число N: "))
+#
+# total_sum = 0
+#
+# for n in range(N):
+#     elem = (-1) ** n * (1 / 2) ** n
+#     total_sum += elem
+#     print(f"n = {n}, elem = {elem}")
+#
+# print(f"\nСумма {N} элементов последовательности: {total_sum}")
+
+# `````````````````Дз```````````````````````#
+
+# x = int(input("Введите количество мальчиков: "))
+# y = int(input("Введите количество девочек: "))
+#
+# if (x - y > 1) or (y - x > 1):
+#     print("Нет решения")
+# else:
+#     result = ""
+#
+#     if x >= y:
+#         first = "B"
+#         second = "G"
+#     else:
+#         first = "G"
+#         second = "B"
+#
+#     for i in range(x + y):
+#         if i % 2 == 0:
+#             result += first
+#         else:
+#             result += second
+#
+#     print(result)
+
