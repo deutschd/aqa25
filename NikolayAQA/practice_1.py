@@ -30,3 +30,22 @@
 #     bad_answer += 1
 # print("Кол-во двоек :" , bad_answer)
 
+#9.3 Цикл for итерирование по строке
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# for symbol in "Python":
+#     print(symbol)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# word = input("Введите слово :")
+# for symbol in word:
+#     print(symbol)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# word = input("Введите слово :")
+# for symbol in word:
+#     print(symbol * 3)
+#     print("_" * 4)

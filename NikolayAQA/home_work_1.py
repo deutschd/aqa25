@@ -449,3 +449,38 @@
 #
 #     print(result)
 
+# `````````````````Дз```````````````````````#
+
+# answer = 'Да, конечно, сделал'
+# for i in range(10):
+#     question = input("Выполнил ли задание, которое выдавал вчера ?")
+#     if question == answer:
+#         break
+
+# `````````````````Дз```````````````````````#
+
+# username = input("Как тебя звать?")
+# print(f"{username} , купи слона!")
+#
+# for i in range(1000):
+#     argument = input()
+#     print(f"Все говорят, {argument} , а ты купи слона!")
+
+# `````````````````Дз```````````````````````#
+
+# text = input("введите текст :")
+# frsSym = input("Введите первый искомый символ :")
+# secSym = input("Введите второй искомый символ :")
+# fscoun = 0
+# sscount = 0
+#
+# for symbol in text:
+#     if symbol == frsSym:
+#         fscoun += 1
+#     if symbol == secSym:
+#         sscount += 1
+#
+# print(f"кол-во {frsSym} равно : {fscoun}")
+# print(f"кол-во {secSym} равно : {sscount}")
+
+# `````````````````Дз```````````````````````#
