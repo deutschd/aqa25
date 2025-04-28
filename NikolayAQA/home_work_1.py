@@ -484,3 +484,23 @@
 # print(f"кол-во {secSym} равно : {sscount}")
 
 # `````````````````Дз```````````````````````#
+
+# text = input("Введите текст:")
+#
+# for symbol in text :
+#     print(symbol * 3)
+
+# `````````````````Дз```````````````````````#
+
+# text = input("Введите текст:")
+# litl_sym = 0
+# hight_sym = 0
+#
+# for sym in text:
+#     if sym == "Ы":
+#         hight_sym += 1
+#     if sym == "ы":
+#         litl_sym += 1
+#
+# print(f"Больших букв Ы: {hight_sym}")
+# print(f"Маленьких букв ы: {litl_sym}")
