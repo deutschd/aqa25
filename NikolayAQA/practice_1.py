@@ -49,3 +49,41 @@
 # for symbol in word:
 #     print(symbol * 3)
 #     print("_" * 4)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+#9.4 Дополнительные возможности функции print
+
+# text = input("Введите текст:")
+# new_sym = ""
+#
+# for symbol in text:
+#     new_sym += symbol + ""
+# print(new_sym)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# text = input("Введите текст:")
+#
+# for symbol in text:
+#     print(symbol , end = " ")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# text = input("Введите текст:")
+#
+# for symbol in text:
+#     print(symbol , end = "@ , \n")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# number = int(input("Введите число:"))
+# step = int(input("Введите шаг:"))
+# summ = 0
+#
+# print("IP-адерес:", end = " ")
+# for count in range(3):
+#     print(number , end = '.')
+#     summ += number
+#     number += step
+# print(summ)
