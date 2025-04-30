@@ -87,3 +87,34 @@
 #     summ += number
 #     number += step
 # print(summ)
+
+#9.5 Типовые алгоритмы работы со строками
+
+# text = input("Введите текст")
+# summ = 0
+#
+# print("\nОтфильтрованный текст" , end = " ")
+# for symbol in text:
+#     if symbol == "1" or symbol == "9":
+#         summ += int(symbol)
+#     else :
+#         print(symbol , end = " ")
+# print("\nСумма :" , summ)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# string = input("Введите строку :")
+# prevSym = ""
+# equalSym = False
+#
+# for letter in string:
+#     if prevSym == letter:
+#         equalSym == True
+#         break
+#     else:
+#         prevSym == letter
+#
+# if equalSym:
+#     print("Есть две одиноковые буквы подряд")
+# else:
+#     print("Нет двух одиноковые букв подряд")
