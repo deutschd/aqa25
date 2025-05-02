@@ -30,3 +30,42 @@
 #         break
 #
 # print(f"Символ «*» стоит на позиции {top}")
+
+# `````````````````Дз```````````````````````#
+
+# row = int(input("Введите кол-во рядов: "))
+# armchair = int(input("Введите кол-во кресел в ряду: "))
+# empty_size = int(input("Введите расстояние между рядами (в сантиметрах): "))
+#
+# for i in range(row):
+#     print("O " * armchair)
+#     print(" " * empty_size)
+
+# `````````````````Дз```````````````````````#
+
+# width = 15
+# height = 20
+#
+# x = width // 2
+# y = height // 2
+#
+# steps = 10
+#
+# for Charley in range(steps):
+#     print(f"Марсоход находится на позиции {x}, {y}, введите команду:")
+#     command = input("W (север), S (юг), A (запад), D (восток)")
+#
+#     if command == "W":
+#         if y < height:
+#             y += 1
+#     elif command == "S":
+#         if y > 0:
+#             y -= 1
+#     elif command == "A":
+#         if x > 0:
+#             x -= 1
+#     elif command == "D":
+#         if x < width:
+#             x += 1
+#     else:
+#         print("Неверная команда! Используйте W (север), S (юг), A (запад), D (восток).")
