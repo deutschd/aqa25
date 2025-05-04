@@ -92,3 +92,17 @@
 #     answer += "GB"
 #
 # print(answer)
+
+# `````````````````Дз```````````````````````#
+
+# ttlmilk = 0
+#
+# for cow in range(1, 11):
+#     print(f"Стойло {cow}" )
+#     asnwer =  input("Выберете вариант : a — свободное стойло, b — занятое")
+#     if asnwer == "a":
+#         cow += 1
+#     else :
+#         ttlmilk += cow * 2
+#     print(f"получено молока: {ttlmilk}")
+# print(f"всего получено молока сегодня:,{ttlmilk}")
