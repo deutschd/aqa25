@@ -106,3 +106,20 @@
 #         ttlmilk += cow * 2
 #     print(f"получено молока: {ttlmilk}")
 # print(f"всего получено молока сегодня:,{ttlmilk}")
+
+# `````````````````Дз```````````````````````#
+
+# message = input("Введите зашифрованное сообщение:")
+# numm = 0
+# first = ""
+# last = ""
+#
+# for symbol in message:
+#     numm += 1
+#     if numm % 2 == 1:
+#         first = first + symbol
+#     else:
+#         last = symbol + last
+#
+# resul = first + last
+# print("Расшифрованное сообщение:", resul)
