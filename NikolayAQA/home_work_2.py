@@ -123,3 +123,19 @@
 #
 # resul = first + last
 # print("Расшифрованное сообщение:", resul)
+
+# `````````````````Дз```````````````````````#
+
+# for a in range(1, 10):
+#     for b in range(1, 10):
+#          print(a * b , end = "\t")
+#     print()
+
+# `````````````````Дз```````````````````````#
+
+# digit = int(input("Ввведите число:"))
+#
+# for row in range(digit + 1):
+#     for col in range(digit + 1):
+#         print(row + col, end = "\t")
+#     print()
