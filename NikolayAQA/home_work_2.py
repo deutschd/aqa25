@@ -161,11 +161,21 @@
 
 # `````````````````Дз```````````````````````#
 
-numm = int(input("Ввведите размер матрицы:"))
+# numm = int(input("Ввведите размер матрицы:"))
 
-for row in range(1, numm + 1):
-    for col in range(1, numm + 1):
-        if row == 3 :
-            print(row, end = "\t")
-            print(col, end = "\t")
-    print()
+# if numm <= 0:
+#     print("Число должно быть больше 0!")
+# else:
+#      for row in range(1, numm + 1):
+#         for col in range(1, numm + 1):
+#             if row == numm:
+#                 print(row, end=" ")
+#             elif col % 3 == 0:
+#                 print(col, end=" ")
+#             else:
+#                 print(row, end=" ")
+#
+#         print()
+
+# `````````````````Дз```````````````````````#
+
