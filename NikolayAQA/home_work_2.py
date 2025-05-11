@@ -179,3 +179,12 @@
 
 # `````````````````Дз```````````````````````#
 
+# for row in range(5):
+#     for col in range(10):
+#         if row == 0:
+#             print("-", end="")
+#         elif col == 0 or col == col - 1:
+#             print("|", end="")
+#         else:
+#             print(" ", end="")
+#     print()
