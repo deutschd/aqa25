@@ -188,3 +188,17 @@
 #         else:
 #             print(" ", end="")
 #     print()
+
+# `````````````````Дз```````````````````````#
+
+# numm = int(input("Введите размер матрицы: "))
+#
+# for row in range(numm):
+#     for col in range(numm):
+#         if row + col == numm - 1:
+#             print(1, end=" ")
+#         elif row + col < numm - 1:
+#             print(0, end=" ")
+#         else:
+#             print(2, end=" ")
+#     print()

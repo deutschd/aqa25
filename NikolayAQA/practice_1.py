@@ -161,16 +161,16 @@
 #10.3 Работа с двумя счётчиками в условном операторе
 
 # size = int(input("Введите число :"))
-
+#
 # for row in range(size):
 #     for col in range(size):
 #         if row < col:
-#             print(0, end = " ")
+#             print(0, end = "")
 #         elif row > col:
-#             print(2, end = " ")
+#             print(2, end = "")
 #         else:
-#             print(1, end = " ")
-#         print()
+#             print(1, end = "")
+#     print()
 
 # +++++++++++++++++++++++++++++++++++++++++++#
 
