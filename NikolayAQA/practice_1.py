@@ -188,3 +188,32 @@
 #             print(" ", end=" ")
 #
 #     print()
+
+#10.4 Решение задач с помощью вложенных циклов
+
+# people = int(input("Введите кол-во людей:"))
+#
+# for hour in range(people + 1):
+#     print("Идёт час :", hour)
+#     for num in range(hour, people):
+#         print("Номер в очереди:", num)
+#     print()
+# print("Очередь обслужена!")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# seqNum = int(input("Сколько будет чисел :"))
+# digit = int(input("Какую цифру считать? :"))
+#
+# while digit < 0 or digit > 9:
+#     digit = int(input("Ввведите цифру от 0 до 9!"))
+# digitCount = 0
+#
+# for num in range(seqNum):
+#     print(f"Введите, {num} ,число :", end = "")
+#     number = int(input())
+#     while number > 0:
+#         if number %10 == digit:
+#             digitCount += 1
+#         number //= 10
+# print(f"Цифр {digit}, в последовательности {digitCount} " )
