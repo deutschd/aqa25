@@ -202,3 +202,23 @@
 #         else:
 #             print(2, end=" ")
 #     print()
+
+# `````````````````Дз```````````````````````#
+# msg = int(input("Введите число :"))
+#
+# resolt = 0
+#
+# while resolt < 5:
+#     numm = int(input("Введите число :"))
+#     if numm >= 5:
+#         resolt += 1
+#
+#     print(f"всего чисел 5 : {resolt}")
+
+# `````````````````Дз```````````````````````#
+# numm = int(input("Введите число: "))
+#
+# for row in range(numm + 1):
+#     for col in range(row, numm + 1):
+#         print(col, end=' ')
+#     print()
