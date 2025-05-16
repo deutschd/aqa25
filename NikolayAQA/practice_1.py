@@ -217,3 +217,30 @@
 #             digitCount += 1
 #         number //= 10
 # print(f"Цифр {digit}, в последовательности {digitCount} " )
+
+#10.5 Блок else для цикла. Бесконечный внешний цикл
+
+# attpcoun = 3
+#
+# for attemp in range(1, 4):
+#     pswrd = int(input("Введите пинкод:"))
+#     if pswrd == 4321:
+#         print("Верный пинкод.")
+#         break
+#     attpcoun -= 1
+#     print(f"Неверный пинкод, осталось попыток: {attemp} ")
+# if attpcoun == 0:
+#     print("Ваша карта заблокированна.")
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# while True:
+#     for attemp in range(1, 4):
+#         pswrd = int(input("Введите пинкод:"))
+#         if pswrd == 4321:
+#             print("\nВерный пинкод.")
+#             break
+#         attpcoun -= 1
+#         print(f"Неверный пинкод, осталось попыток:,3 - {attemp} ")
+#     if attpcoun == 0:
+#         print("\nВаша карта заблокированна.")
