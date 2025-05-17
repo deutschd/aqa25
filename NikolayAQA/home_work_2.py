@@ -229,3 +229,24 @@
 #     for col in range(0, 11, 2):
 #         print(row + col, end = '\t')
 #     print()
+
+# `````````````````Дз```````````````````````#
+
+# digit = int(input("Введите число: "))
+#
+# for row in range(1, digit + 1):
+#     for col in range(row):
+#         print(row, end=" ")
+#     print()
+
+# `````````````````Дз```````````````````````#
+
+# for row in range(10):
+#     for col in range(10):
+#         if row == 0 or row == 9:
+#             print("_", end = " ")
+#         elif col == 0 or col == 9:
+#             print("|", end = " ")
+#         else:
+#             print(" ", end = " ")
+#     print()
