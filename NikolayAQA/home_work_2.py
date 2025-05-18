@@ -250,3 +250,45 @@
 #         else:
 #             print(" ", end = " ")
 #     print()
+
+# `````````````````Дз```````````````````````#
+
+# nummTtl = int(input("Введите количество чисел: "))
+#
+# numCount = 0
+# entered = 0
+#
+# while entered < nummTtl:
+#     digit = int(input("Введите число: "))
+#     entered += 1
+#
+#     if digit >= 2:
+#         dividerCount = 0
+#         for divider in range(1, digit + 1):
+#             if digit % divider == 0:
+#                 dividerCount += 1
+#
+#         if dividerCount == 2:
+#             numCount += 1
+#
+# print(f"Количество простых чисел в последовательности: {numCount}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
