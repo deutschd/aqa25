@@ -273,10 +273,34 @@
 #
 # print(f"Количество простых чисел в последовательности: {numCount}")
 
+# `````````````````Дз```````````````````````#
 
+# n = int(input("Введите высоту пирамиды: "))
+#
+# for row in range(1, n+1, 2):
+#     print(" " * ((7 - row) // 2) + "#" * row)
 
+# `````````````````Дз```````````````````````#
 
-
+# n = int(input("Сколько чисел вы хотите ввести? "))
+# max_digit_sum = 0
+# number_with_max_sum = 0
+#
+# for digit in range(n):
+#     num = int(input("Введите число: "))
+#     sum_of_digits = 0
+#     temp = num
+#
+#     while temp > 0:
+#         sum_of_digits += temp % 10
+#         temp //= 10
+#
+#     if sum_of_digits > max_digit_sum:
+#         max_digit_sum = sum_of_digits
+#         number_with_max_sum = num
+#
+# print(f"Число с наибольшей суммой цифр: {number_with_max_sum}")
+# print(f"Сумма его цифр: {max_digit_sum}")
 
 
 
