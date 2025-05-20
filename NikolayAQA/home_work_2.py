@@ -302,6 +302,17 @@
 # print(f"Число с наибольшей суммой цифр: {number_with_max_sum}")
 # print(f"Сумма его цифр: {max_digit_sum}")
 
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите высоту пирамиды: "))
+# current = 1
+#
+# for row in range(1, n + 1):
+#     print(" " * (n - row), end="")
+#     for i in range(row):
+#         print(current, end=" ")
+#         current += 2
+#     print()
 
 
 
