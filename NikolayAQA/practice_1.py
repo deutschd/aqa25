@@ -280,4 +280,26 @@
 # else:
 #     print("У вас ожирение!")
 
+#11.3 Приведение типов между int и float
+
+# while True:
+#     force = float(input("Сила удара :"))
+#     force *= 10
+#     print("Балл :", int(force))
+
 # +++++++++++++++++++++++++++++++++++++++++++#
+
+# x = float(input("Расположение по горизонтали:"))
+# y = float(input("Расположение по вертикали:"))
+#
+# xSquare = int(x * 10)
+# ySquare = int(y * 10)
+#
+# print("Фигура на координатах :", xSquare,",", ySquare)
+
+
+
+
+
+
+
