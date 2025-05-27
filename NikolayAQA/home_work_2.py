@@ -364,7 +364,15 @@
 #
 # print(mny_gift)
 
+# `````````````````Дз```````````````````````#
 
+# chatle = int(input("Сколько чатлов?: "))
+#
+# CR = float(chatle) / 2200
+# ships = int(CR / 0.5)
+#
+# print(f"Это {CR} CR")
+# print(f"Можно купить кораблей: {ships}")
 
 
 
