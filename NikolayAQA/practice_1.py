@@ -297,9 +297,29 @@
 #
 # print("Фигура на координатах :", xSquare,",", ySquare)
 
+#11.4 Математические функции. Работа с модулем math
 
+# import math
+#
+# x = int(input("Введите координату х :"))
+# y = int(input("Введите координату у:"))
+#
+# distance = math.sqrt(x ** 2 + y ** 2)
+#
+# print("Расстояние:", distance)
 
+# +++++++++++++++++++++++++++++++++++++++++++#
 
+# import math
+#
+# distance = float(input("Введите расстояние до танка:"))
+# angle = float(input("Введите угол в градусах:"))
+#
+# angle /= 57.2958
+# x = math.cos(angle) * distance
+# y = math.sin(angle) * distance
+#
+# print("Координаты танка :", x, ",", y)
 
 
 
