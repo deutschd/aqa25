@@ -388,15 +388,83 @@
 #         yValue = int(y * 10)
 #         print(f"Фигура находится в клетке ({xValue}, {yValue})")
 
+# `````````````````Дз```````````````````````#
 
+# import math
+#
+# a = int(input("Введите длину стороный 'А': "))
+# b = int(input("Введите длину стороный 'В': "))
+# c = int(input("Введите длину стороный 'С': "))
+#
+# if a + b > c and a + c > b and b + c > a:
+#     p = (a + b + c) / 2
+#     s = math.sqrt(p * (p - a) * (p - b) * (p - c))
+#     print("Площадь треугольника равна:", int(s))
+# else:
+#     print("Треугольник с такими сторонами не существует")
 
+# `````````````````Дз```````````````````````#
 
+# import math
+#
+# x = 0
+# y = 0
+#
+# distance = float(input("Введите расстояние: "))
+# angle_deg = float(input("Введите угол (в градусах): "))
+#
+# angle_rad = math.radians(angle_deg)
+#
+# x += distance * math.cos(angle_rad)
+# y += distance * math.sin(angle_rad)
+#
+# print(f"Новые координаты персонажа: ({x}, {y})")
 
+# `````````````````Дз```````````````````````#
 
-
-
-
-
-
-
+# import math
+#
+# numm = float(input("Введите ваше число: "))
+#
+# print("Округляем вниз:")
+# print(math.floor(numm))
+#
+# print("Округляем вверх:")
+# print(math.ceil(numm))
+#
+# print("Модуль числа:")
+# print(abs(numm))
+#
+# if numm < 0:
+#     print("Корень из отрицательного числа невозможен")
+# else:
+#     print("Квадратный корень:")
+#     print(math.sqrt(numm))
+#
+# print("Считаем экспоненту:")
+# print(math.exp(numm))
+#
+# if numm <= 0:
+#     print("Логарифм не определён для нуля и отрицательных чисел")
+# else:
+#     print("Вычисляем логарифм:")
+#     print(math.log(numm))
+#
+#     print("Вычисляем логарифм по основанию 2:")
+#     print(math.log2(numm))
+#
+#     print("Вычисляем логарифм по основанию 10:")
+#     print(math.log10(numm))
+#
+# print("Вычисляем sin числа:")
+# print(math.sin(numm))
+#
+# print("Вычисляем cos числа:")
+# print(math.cos(numm))
+#
+# if numm < 0 or not numm.is_integer():
+#     print("Факториал можно считать только от неотрицательного целого числа")
+# else:
+#     print("Вычисляем факториал:")
+#     print(math.factorial(int(numm)))
 
