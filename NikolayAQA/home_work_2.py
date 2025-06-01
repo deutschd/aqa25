@@ -468,3 +468,32 @@
 #     print("Вычисляем факториал:")
 #     print(math.factorial(int(numm)))
 
+# `````````````````Дз```````````````````````#
+
+# price = float(input('Введите сумму покупки в Евро: '))
+#
+# euro_to_usd = 1.25
+# usd_to_rub = 60.87
+#
+# rub = price * euro_to_usd * usd_to_rub
+#
+# print('Общая стоимость составляет:', round(rub, 2), 'рублей')
+
+# `````````````````Дз```````````````````````#
+
+# import math
+#
+# attemp = int(input('Введите кол-во чисел:'))
+# attempCount = 0
+#
+# while attempCount < attemp:
+#     numm = float(input('Введите число:'))
+#
+#     if numm >= 0:
+#         maxNumm = math.ceil(numm)
+#         print(math.log(maxNumm))
+#     else:
+#         minNumm = math.floor(numm)
+#         print(math.exp(minNumm))
+#
+#     attempCount += 1
