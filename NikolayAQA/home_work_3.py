@@ -34,3 +34,25 @@
 
 # `````````````````Дз```````````````````````#
 
+# x = float(input("Введите положительное действительное число X: "))
+#
+# fractional_part = x % 1
+#
+# first_decimal_digit = int(fractional_part * 10)
+#
+# print("Первая цифра после десятичной точки:", first_decimal_digit)
+
+# `````````````````Дз```````````````````````#
+
+# import math
+#
+# r = float(input("Введите радиус случайной планеты: "))
+# v = (4 / 3) * math.pi * (r ** 3)
+# earth_volume = 1.08321 * 10 ** 12
+#
+# ratio = earth_volume / v
+#
+# if ratio > 1:
+#     print(f"Объём планеты Земля больше в {round(ratio, 3)} раз")
+# else:
+#     print(f"Объём планеты Земля меньше в {round(1 / ratio, 3)} раз")
