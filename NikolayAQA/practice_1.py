@@ -321,5 +321,66 @@
 #
 # print("Координаты танка :", x, ",", y)
 
+#12.2 Функции и их вызов
 
+# for food in range(3):
+#  fruit = int(input('Сколько фруктов?'))
+#  vegetables = int(input('Сколько овощей?'))
+#  summ = fruit + vegetables
+#  print('Всего :', summ)
 
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# print('Обезьяны')
+# fruit = int(input('Введите кол-во фруктов:'))
+# vegetables = int(input('Сколько овощей?'))
+# print('Всего :', fruit + vegetables)
+#
+# print('\nЖирафы')
+# fruit = int(input('Введите кол-во фруктов:'))
+# vegetables = int(input('Сколько овощей?'))
+# print('Всего :', fruit + vegetables)
+#
+# print('\nСлоны')
+# fruit = int(input('Введите кол-во фруктов:'))
+# vegetables = int(input('Сколько овощей?'))
+# print('Всего :', fruit + vegetables)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# def countFood():
+#     fruit = int(input('Введите кол-во фруктов:'))
+#     vegetables = int(input('Сколько овощей?'))
+#     print('Всего :', fruit + vegetables)
+#
+# print('Обезьяны')
+# countFood()
+# print('\nЖирафы')
+# countFood()
+# print('\nСлоны')
+# countFood()
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# def triangle():
+#     stars = 1
+#     for line in range(5):
+#         print(" " * (5 - line - 1), end = '')
+#         print('*' * stars)
+#         stars += 2
+#
+# def rectagle():
+#     for line in range(5):
+#         if line == 0 or line == 4:
+#             print('*' * 5)
+#         else:
+#             print('*' + '' * 3 + '*')
+#
+# choice = int(input('1 - треугольник, 2 - прямоугольник'))
+#
+# if choice == 1:
+#     triangle()
+# elif choice == 2:
+#     rectagle()
+# else:
+#     print('Выберете один из доступных вариантов')
