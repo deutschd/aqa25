@@ -384,3 +384,30 @@
 #     rectagle()
 # else:
 #     print('Выберете один из доступных вариантов')
+
+#12.3 Функции с одним параметром
+
+# def person(name):
+# 	print('Фамилия : Иванов')
+# 	print('Имя :', name)
+# 	print('Улица : Есенина')
+# 	print('Дом : 89')
+#
+# person('Саша')
+# person('Маша')
+# person('Ваня')
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# import math
+#
+# def func(x):
+# 	if -5 <= x <= 5:
+# 		print('x =', x, 'y = ', math.exp(x))
+# 	elif x < -5:
+# 		print('x =', x, 'y = ', 2 * abs(x)-1)
+# 	else:
+# 		print('x =', x, 'y = ', 2 * x)
+#
+# for x in range(-10, 11):
+# 	func(x)
