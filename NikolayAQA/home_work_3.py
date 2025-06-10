@@ -109,3 +109,53 @@
 # person()
 # person()
 # person()
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# def wather(price):
+# 	print('КлирВотер')
+# 	print('ВодЗавод')
+# 	print(price)
+# 	print()
+#
+# wather('25')
+# wather('30')
+# wather('40')
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# import math
+#
+# radius = float(input("Введите радиус планеты: "))
+#
+# def sphereArea():
+#     s = 4 * math.pi * (radius ** 2)
+#     print(f"Площадь поверхности планеты: {s} км²")
+#
+# def sphereVolume():
+#     v = (4 / 3) * math.pi * (radius ** 3)
+#     print(f"Объём планеты: {v} км³")
+#
+# sphereArea()
+# sphereVolume()
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# def isPrime(num):
+#     if num < 2:
+#         print(f"{num} — не простое число")
+#     else:
+#         i = 2
+#         while i * i <= num:
+#             if num % i == 0:
+#                 print(f"{num} — не простое число")
+#                 break
+#             i += 1
+#         else:
+#             print(f"{num} — простое число")
+#
+# N = int(input("Сколько чисел вы хотите проверить? "))
+#
+# for _ in range(N):
+#     number = int(input("Введите число: "))
+#     isPrime(number)
