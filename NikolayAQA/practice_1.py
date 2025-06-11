@@ -411,3 +411,47 @@
 #
 # for x in range(-10, 11):
 # 	func(x)
+
+#12.4 Функции с несколькими параметрами
+
+# def myAdress(name, house_number):
+#     print('Имя:', name)
+#     print('Фамилия: Пупкин')
+#     print('Улица: Байрона')
+#     print('Дом:', house_number)
+#     print()  # правильный отступ
+#
+# myAdress('Вася', 3)
+# myAdress('Даня', 34)
+# myAdress('Женя', 12)
+# myAdress('Маша', 31)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+import math
+
+# def myDistance(x, y):
+#     distance = math.sqrt(x ** 2 + y ** 2)
+#     print("Расстояние до точки от начала координат:", distance)
+#
+# def betweenDistance(x_1, y_1, x_2, y_2):
+#     distance = math.sqrt((x_2 - x_1) ** 2 + (y_2 - y_1) ** 2)
+#     print("Расстояние между двумя точками:", distance)
+#
+# choice = int(input('1 - расстояние до точки, 2 - расстояние между двух точек: '))
+#
+# if choice == 1:
+#     x = float(input('Введите координату x: '))
+#     y = float(input('Введите координату y: '))
+#     myDistance(x, y)
+# elif choice == 2:
+#     x_1 = float(input('Введите координату x1: '))
+#     y_1 = float(input('Введите координату y1: '))
+#     x_2 = float(input('Введите координату x2: '))
+#     y_2 = float(input('Введите координату y2: '))
+#     betweenDistance(x_1, y_1, x_2, y_2)
+# else:
+#     print('Ошибка ввода')
+
+
