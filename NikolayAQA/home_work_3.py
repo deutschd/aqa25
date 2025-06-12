@@ -110,7 +110,7 @@
 # person()
 # person()
 
-# +++++++++++++++++++++++++++++++++++++++++++#
+# `````````````````Дз```````````````````````#
 
 # def wather(price):
 # 	print('КлирВотер')
@@ -122,7 +122,7 @@
 # wather('30')
 # wather('40')
 
-# +++++++++++++++++++++++++++++++++++++++++++#
+# `````````````````Дз```````````````````````#
 
 # import math
 #
@@ -139,7 +139,7 @@
 # sphereArea()
 # sphereVolume()
 
-# +++++++++++++++++++++++++++++++++++++++++++#
+# `````````````````Дз```````````````````````#
 
 # def isPrime(num):
 #     if num < 2:
@@ -159,3 +159,63 @@
 # for _ in range(N):
 #     number = int(input("Введите число: "))
 #     isPrime(number)
+
+# `````````````````Дз```````````````````````#
+
+# def mid_num():
+#     first_num = int(input('Введите левую границу: '))
+#     second_num = int(input('Введите правую границу: '))
+#
+#     if first_num < second_num:
+#         count = second_num - first_num + 1
+#         total = (first_num + second_num) * count / 2
+#         average = total / count
+#         print('Среднее:', average)
+#     else:
+#         print('Ошибка: первое число должно быть меньше второго.')
+#
+# mid_num()
+
+# `````````````````Дз```````````````````````#
+
+# def mail(surname, name, country, town, street, home, door):
+#     print('Фамилия:', surname)
+#     print('Имя:', name)
+#     print('Страна:', country)
+#     print('Город:', town)
+#     print('Улица:', street)
+#     print('Дом:', home)
+#     print('Квартира:', door)
+#     print()
+#
+# mail('Пупкин', 'Вася', 'Бангладеш', 'Где-то', 'Ж', 10, 15)
+# mail('Иванов', 'Пётр', 'Россия', 'Москва', 'Ленина', 5, 8)
+# mail('Смирнова', 'Анна', 'Казахстан', 'Алматы', 'Абая', 21, 3)
+
+# `````````````````Дз```````````````````````#
+
+# import math
+#
+# def myDistance(x, y):
+#     distance = math.sqrt(x ** 2 + y ** 2)
+#     print("Расстояние до точки от начала координат:", distance)
+#
+# def betweenDistance(x1, y1, x2, y2):
+#     distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+#     print("Расстояние между двумя точками:", distance)
+#
+# choice = int(input('Выберите действие:\n1 - расстояние до точки\n2 - расстояние между двумя точками\nВаш выбор: '))
+#
+# if choice == 1:
+#     x = float(input('Введите координату x: '))
+#     y = float(input('Введите координату y: '))
+#     myDistance(x, y)
+#
+# elif choice == 2:
+#     x1 = float(input('Введите координату x1: '))
+#     y1 = float(input('Введите координату y1: '))
+#     x2 = float(input('Введите координату x2: '))
+#     y2 = float(input('Введите координату y2: '))
+#     betweenDistance(x1, y1, x2, y2)
+# else:
+#     print('Ошибка ввода: выберите 1 или 2')
