@@ -219,3 +219,14 @@
 #     betweenDistance(x1, y1, x2, y2)
 # else:
 #     print('Ошибка ввода: выберите 1 или 2')
+
+# `````````````````Дз```````````````````````#
+
+# def summa_n():
+#     result = 0
+#     n = int(input('Введите число:'))
+#     for digit in range(1, 5 + 1):
+#         result += digit
+#     print(f'Я знаю, что сумма чисел от 1 до {n} равна {result}')
+#
+# summa_n()
