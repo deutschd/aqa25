@@ -230,3 +230,22 @@
 #     print(f'Я знаю, что сумма чисел от 1 до {n} равна {result}')
 #
 # summa_n()
+
+# `````````````````Дз```````````````````````#
+
+# def positive():
+#     print('Положительное')
+#
+# def negative():
+#     print('Отприцательное')
+#
+# def test():
+#     numm = int(input('Введите ваше число:'))
+#     if numm > 0:
+#         positive()
+#     elif numm < 0:
+#         negative()
+#     else:
+#         print('Ошибка повторите ввод')
+#
+# test()
