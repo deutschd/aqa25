@@ -249,3 +249,51 @@
 #         print('Ошибка повторите ввод')
 #
 # test()
+
+# `````````````````Дз```````````````````````#
+
+# def digit_sum(n):
+#     if n < 0:
+#         n = -n
+#     result = 0
+#     while n > 0:
+#         result += n % 10
+#         n //= 10
+#     print("Сумма цифр:", result)
+#
+#
+# def digit_min(n):
+#     if n < 0:
+#         n = -n
+#     min_digit = 9
+#     while n > 0:
+#         d = n % 10
+#         if d < min_digit:
+#             min_digit = d
+#         n //= 10
+#     print("Минимальная цифра:", min_digit)
+#
+#
+# def digit_max(n):
+#     if n < 0:
+#         n = -n
+#     max_digit = 0
+#     while n > 0:
+#         d = n % 10
+#         if d > max_digit:
+#             max_digit = d
+#         n //= 10
+#     print("Максимальная цифра:", max_digit)
+#
+# while True:
+#     n = int(input('Введите ваше число: '))
+#     move = input('Выберите действие: "sum", "min", "max": ')
+#
+#     if move == "sum":
+#         digit_sum(n)
+#     elif move == "min":
+#         digit_min(n)
+#     elif move == "max":
+#         digit_max(n)
+#     else:
+#         print("Неизвестная команда. Попробуйте ещё раз.")
