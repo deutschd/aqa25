@@ -297,3 +297,32 @@
 #         digit_max(n)
 #     else:
 #         print("Неизвестная команда. Попробуйте ещё раз.")
+
+# `````````````````Дз```````````````````````#
+
+# def reverse_number(n):
+#     found_digit = 0  # 0 — ещё не было значимой цифры
+#
+#     print("Число наоборот:", end=" ")
+#
+#     while n > 0:
+#         digit = n % 10
+#         if digit != 0:
+#             found_digit = 1  # теперь можно печатать всё
+#             print(digit, end="")
+#         else:
+#             if found_digit == 1:
+#                 print(0, end="")
+#         n = n // 10
+#
+#     if found_digit == 0:
+#         print(0, end="")
+#
+#     print()
+#
+# while True:
+#     num = int(input("Введите число: "))
+#     if num == 0:
+#         print("Программа завершена!")
+#         break
+#     reverse_number(num)
