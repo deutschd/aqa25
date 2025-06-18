@@ -326,3 +326,39 @@
 #         print("Программа завершена!")
 #         break
 #     reverse_number(num)
+
+# `````````````````Дз```````````````````````#
+
+# def count_letters():
+#     txt = input('Введите ваш текст: ')
+#     dig = input('Какую цифру ищем? ')
+#     letter = input('Какую букву ищем? ')
+#
+#     dig_count = 0
+#     letter_count = 0
+#
+#     for symb in txt:
+#         if symb == dig:
+#             dig_count += 1
+#         elif symb == letter:
+#             letter_count += 1
+#
+#     if dig_count == 0 and letter_count == 0:
+#         print('Совпадений не найдено.')
+#     else:
+#         print(f'Кол-во цифр {dig}: {dig_count}')
+#         print(f'Кол-во букв {letter}: {letter_count}')
+#
+# count_letters()
+
+# `````````````````Дз```````````````````````#
+
+# def gcd(a, b):
+#     while b != 0:
+#         temp = b
+#         b = a % b
+#         a = temp
+#     print("Наибольший общий делитель:", a)
+#
+# x = int(input("Введите первое число: "))
+# y = int(input("Введите второе число: "))
