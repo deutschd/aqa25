@@ -362,3 +362,60 @@
 #
 # x = int(input("Введите первое число: "))
 # y = int(input("Введите второе число: "))
+
+# `````````````````Дз```````````````````````#
+
+# import random
+#
+# def rock_paper_scissors():
+#     print("Игра 'Камень, ножницы, бумага'!")
+#     choices = ['камень', 'ножницы', 'бумага']
+#     player = input("Ваш выбор (камень, ножницы, бумага): ").lower()
+#     computer = random.choice(choices)
+#
+#     print("Компьютер выбрал:", computer)
+#
+#     if player == computer:
+#         print("Ничья!")
+#     elif (player == 'камень' and computer == 'ножницы') or \
+#          (player == 'ножницы' and computer == 'бумага') or \
+#          (player == 'бумага' and computer == 'камень'):
+#         print("Вы выиграли!")
+#     elif player in choices:
+#         print("Вы проиграли!")
+#     else:
+#         print("Неверный ввод. Попробуйте снова.")
+#
+# def guess_the_number():
+#     number = 72
+#     response = -1
+#
+#     while response != number:
+#         response = int(input('Угадай какое было загадано число: '))
+#         if response < number:
+#             print("Слишком маленькое число.")
+#         elif response > number:
+#             print("Слишком большое число.")
+#         else:
+#             print('Поздравляем, вы выиграли!')
+#
+# def mainMenu():
+#     while True:
+#         print("\nГлавное меню:")
+#         print("1 - Угадай число")
+#         print("2 - Камень, ножницы, бумага")
+#         print("0 - Выход")
+#
+#         answer = input("Выберите игру: ")
+#
+#         if answer == '1':
+#             guess_the_number()
+#         elif answer == '2':
+#             rock_paper_scissors()
+#         elif answer == '0':
+#             print("До свидания!")
+#             break
+#         else:
+#             print("Ошибка: выберите 1, 2 или 0.")
+#
+# mainMenu()
