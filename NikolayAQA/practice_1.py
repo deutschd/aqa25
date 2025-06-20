@@ -477,3 +477,23 @@
 #     print('Всё плохо.')
 #
 # mainMenu()
+
+# 13.2 Несколько результатов одной функции
+
+# def sqr(numm):
+#     result = numm * numm
+#     print(result)
+
+# +++++++++++++++++++++++++++++++++++++++++++#
+
+# def sqr(numm):
+#     return numm * numm
+
+# 13.3 Вещественные числа в Python
+
+# def div_n_time(value, divider, times):
+#     for i in range(times):
+#         value /= divider
+#     return value
+#
+# div_n_time(28, 4, 2)
