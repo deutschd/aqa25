@@ -419,3 +419,20 @@
 #             print("Ошибка: выберите 1, 2 или 0.")
 #
 # mainMenu()
+
+# `````````````````Дз```````````````````````#
+
+# def summa_n(n):
+#     ttl = 0
+#     for dig in range(1, n + 1):
+#         ttl += dig
+#     return ttl
+#
+# n = int(input("Введите число: "))
+# if n <= 0:
+#     print("Число должно быть больше нуля!")
+# else:
+#     result1 = summa_n(n)
+#     print(f"Сумма от 1 до {n} = {result1}")
+#     result2 = summa_n(result1)
+#     print(f"Сумма от 1 до {result1} = {result2}")
