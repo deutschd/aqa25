@@ -436,3 +436,44 @@
 #     print(f"Сумма от 1 до {n} = {result1}")
 #     result2 = summa_n(result1)
 #     print(f"Сумма от 1 до {result1} = {result2}")
+
+# `````````````````Дз```````````````````````#
+
+# def gcd(a, b):
+#     while b != 0:
+#         a, b = b, a % b
+#     return a
+#
+# num1 = int(input("Введите первое число: "))
+# num2 = int(input("Введите второе число: "))
+#
+# result = gcd(num1, num2)
+# print("НОД =", result)
+
+# `````````````````Дз```````````````````````#
+
+# def numeral_count(number):
+#     if number < 0:
+#         return 0
+#     if number == 0:
+#         return 1  # У числа 0 одна цифра
+#     count = 0
+#     while number > 0:
+#         count += 1
+#         number //= 10
+#     return count
+#
+# n = int(input("Введите кол-во задач: "))
+#
+# max_digits = 0
+# priority_task = 0
+#
+# for i in range(n):
+#     num = int(input("Введите число: "))
+#     digits = numeral_count(num)
+#
+#     if digits > max_digits:
+#         max_digits = digits
+#         priority_task = num
+#
+# print("Первая задача на обработку:", priority_task)
