@@ -477,3 +477,19 @@
 #         priority_task = num
 #
 # print("Первая задача на обработку:", priority_task)
+
+# `````````````````Дз```````````````````````#
+
+# def divider():
+#     result = 1.0
+#     divide = 0
+#
+#     while result > 0:
+#         result /= 2
+#         divide += 1
+#         print(f'Кол-во делений = {divide}, минимальное число = {result}')
+#
+#     print("\nДальше делить нельзя — результат стал равен 0.")
+#     return divide, result
+#
+# divider()
