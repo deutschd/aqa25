@@ -97,3 +97,38 @@
 #     print(f"Формат плавающей точки: x = {a} * 10 ** {b}")
 #
 # float_format()
+
+# `````````````````Дз```````````````````````#
+
+# def tax_count():
+#     tax = float(input("Введите бюджет страны: "))
+#     new_tax = float(input("Новые поступления (налог): "))
+#
+#     total = tax + new_tax
+#
+#     if total == tax:
+#         print("Результат: Бюджет не изменится")
+#     else:
+#         print("Результат: Бюджет увеличится")
+#
+# tax_count()
+
+# `````````````````Дз```````````````````````#
+
+# from decimal import Decimal, getcontext
+#
+# def eqv():
+#     getcontext().prec = 30
+#
+#     frst_numm = Decimal(input('Введите первое число: '))
+#     sec_numm = Decimal(input('Введите второе число: '))
+#     thrd_numm = Decimal(input('Введите третье число: '))
+#
+#     if frst_numm + sec_numm == thrd_numm:
+#         print('True')
+#     else:
+#         print('False')
+#
+# eqv()
+
+# `````````````````Дз```````````````````````#
