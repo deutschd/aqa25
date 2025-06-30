@@ -132,3 +132,74 @@
 # eqv()
 
 # `````````````````Дз```````````````````````#
+
+# def to_float_point():
+#     x = float(input("Введите число: "))
+#
+#     while x <= 0:
+#         print("Число должно быть больше 0.")
+#         x = float(input("Введите число: "))
+#
+#     a = x
+#     b = 0
+#
+#     if x >= 10:
+#         while a >= 10:
+#             a = a / 10
+#             b = b + 1
+#     elif x < 1:
+#         while a < 1:
+#             a = a * 10
+#             b = b - 1
+#
+#     print(f"Формат плавающей точки: x = {a} * 10 ** {b}")
+#
+# to_float_point()
+
+# `````````````````Дз```````````````````````#
+
+# def maximum_of_two(a, b):
+#     if a > b:
+#         return a
+#     else:
+#         return b
+#
+# def maximum_of_three(a, b, c):
+#     max_ab = maximum_of_two(a, b)
+#     max_abc = maximum_of_two(max_ab, c)
+#     return max_abc
+#
+# x = float(input("Введите первое число: "))
+# y = float(input("Введите второе число: "))
+# z = float(input("Введите третье число: "))
+#
+# max_value = maximum_of_three(x, y, z)
+# print("Максимум из трёх чисел:", max_value)
+
+# `````````````````Дз```````````````````````#
+
+# def reverse_number(n):
+#     reversed_n = 0
+#     while n > 0:
+#         digit = n % 10
+#         reversed_n = reversed_n * 10 + digit
+#         n //= 10
+#     return reversed_n
+#
+# def main():
+#     n = int(input("Введите первое число: "))
+#     k = int(input("Введите второе число: "))
+#
+#     rev_n = reverse_number(n)
+#     rev_k = reverse_number(k)
+#
+#     print("Первое число наоборот:", rev_n)
+#     print("Второе число наоборот:", rev_k)
+#
+#     total = rev_n + rev_k
+#     rev_total = reverse_number(total)
+#
+#     print("Сумма:", total)
+#     print("Сумма наоборот:", rev_total)
+#
+# main()
