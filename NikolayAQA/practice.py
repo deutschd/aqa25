@@ -462,6 +462,7 @@
 # for number in range (1 , n , 2) :
 #     print(number , "**2 =" , number ** 2)
 
+# +++++++++++++++++++++++++++++++++++++++++++#
 
 # wake_up = int(input("Время пробуждения:"))
 # wather = 0
@@ -485,6 +486,8 @@
 #     print("Осталось времени :" , sec)
 # print("Дзынь!")
 
+# +++++++++++++++++++++++++++++++++++++++++++#
+
 # ttlSoldiers = int(input("Кол-во солдат в шеренге :"))
 # ttlRules = int(input("Кол-во правил в уставе? :"))
 # push_ups = 0
@@ -495,3 +498,16 @@
 #         print("Не правильно!" , 10 * soldiers , "отжиманий!")
 #         push_ups += 10 * soldiers
 # print("Общее кол-во отжиамний :" , push_ups)
+
+#8.5 Пользовательский ввод и функция range
+
+# bgn_num = int(input("Введите начальное число:"))
+# end_num = int(input("Введите последнее число:"))
+# step = int(input("Введите шаг:"))
+#
+# for number in range(bgn_num, end_num + 1, step):
+#     print(number, "**2 = ", number ** 2)
+#     step += 4
+#     print(step)
+#     bgn_num += 5
+#     end_num += 6

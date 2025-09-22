@@ -289,3 +289,218 @@
 # for cube in range(1, n // 2 + n % 2 + 1):
 #     result = cube * 2 - 1
 #     print(result, "** 2 =", result ** 2)
+
+# `````````````````Дз```````````````````````#
+
+# nums = int(input("До какого числа вычеслить куб? :"))
+#
+# for cube in range(1, nums + 1, 2):
+#     result = cube ** 3
+#     print(cube, " ** 3 = ", result)
+
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите число"))
+# sum = 0
+#
+# for chair in range(1, n + 1, 5):
+#     sum += chair
+#     print("Номер стула:", chair)
+#
+# print("Сумма:", sum)
+
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите кол-во секунд:"))
+#
+# for second in range(n, -1, -1):
+#     print(second)
+# print("Я иду искать!")
+
+# `````````````````Дз```````````````````````#
+
+# n = int(input("Введите кол-во секунд: "))
+#
+# start = n - n % 2
+#
+# for second in range(start, 0, -2):
+#     print(second)
+
+# `````````````````Дз```````````````````````#
+
+# bag = 100
+# monthly_consumption = 4
+# months = bag // monthly_consumption
+#
+# for month in range(1, months + 1):
+#     remaining = bag - monthly_consumption * month
+#     print("Через", month, "мес.:", remaining, "кг гречки осталось")
+
+# `````````````````Дз```````````````````````#
+
+# debt = int(input("Введите количество должников: "))
+# ttlDebt = 0
+# for sum in range(0, debt + 1, 5):
+#     print("Должник с номером", sum)
+#     answer = int(input("Сколько должны?"))
+#     ttlDebt += answer
+# print("Общая сумма долга:", ttlDebt)
+
+# `````````````````Дз```````````````````````#
+
+# reverse_timer = int(input("Введите количество секунд: "))
+#
+# for timer in range(reverse_timer, -1, -1):
+#     print("Осталось", timer, "секунд.")
+#     answer = int(input("Прервать режим разогрева? 1 = Да, еда готова / 0 = Нет: "))
+#
+#     if answer == 1:
+#         print("Ваша еда готова, можете забрать. Таймер был прерван на", timer, "секунде.")
+#         break
+#     elif timer == 0:
+#         print("Ваша еда готова, осторожно горячo!")
+
+# `````````````````Дз```````````````````````#
+
+# num_1 = int(input("Введите первое число:"))
+# num_2 = int(input("Введите второе число:"))
+# num_3 = int(input("Введите делитель:"))
+# ttlsum = 0
+# ttldigit = 0
+#
+# for digit in range(num_1 , num_2 + 1):
+#     if digit % num_3 == 0 :
+#         ttlsum += digit
+#         ttldigit += 1
+#
+# if ttldigit != 0:
+#     resul = ttlsum / ttldigit
+#     print("Среднее арифметическое:", resul)
+# else:
+#     print("Нет чисел, кратных", num_3, "в этом диапазоне.")
+
+# `````````````````Дз```````````````````````#
+
+# start = int(input("Введите начало отрезка: "))
+# end = int(input("Введите конец отрезка: "))
+# step = int(input("Введите шаг: "))
+#
+# if step >= 0:
+#     print("Шаг должен быть отрицательным!")
+# else:
+#     for x in range(end, start - 1, step):
+#         y = (x - 1) ** 2
+#         print(f"В точке {x} функция равна {y}")
+
+# `````````````````Дз```````````````````````#
+
+# educational_grant = int(input("Введите стипендию: "))
+# expenses = int(input("Введите расходы на проживание: "))
+#
+# total_money_needed = 0
+#
+# for month in range(1, 11):
+#     if month > 1:
+#         expenses *= 1.03,
+#
+#     shortage = expenses - educational_grant
+#
+#     total_money_needed += shortage
+#
+#     print(f"{month} месяц: расходы = {expenses:.2f}, нехватка = {shortage:.2f}")
+#
+# print(f"Итого нужно попросить у родителей: {total_money_needed:.2f} рублей")
+
+# `````````````````Дз```````````````````````#
+
+# N = int(input("Введите число N: "))
+#
+# total_sum = 0
+#
+# for n in range(N):
+#     elem = (-1) ** n * (1 / 2) ** n
+#     total_sum += elem
+#     print(f"n = {n}, elem = {elem}")
+#
+# print(f"\nСумма {N} элементов последовательности: {total_sum}")
+
+# `````````````````Дз```````````````````````#
+
+# x = int(input("Введите количество мальчиков: "))
+# y = int(input("Введите количество девочек: "))
+#
+# if (x - y > 1) or (y - x > 1):
+#     print("Нет решения")
+# else:
+#     result = ""
+#
+#     if x >= y:
+#         first = "B"
+#         second = "G"
+#     else:
+#         first = "G"
+#         second = "B"
+#
+#     for i in range(x + y):
+#         if i % 2 == 0:
+#             result += first
+#         else:
+#             result += second
+#
+#     print(result)
+
+# `````````````````Дз```````````````````````#
+
+# answer = 'Да, конечно, сделал'
+# for i in range(10):
+#     question = input("Выполнил ли задание, которое выдавал вчера ?")
+#     if question == answer:
+#         break
+
+# `````````````````Дз```````````````````````#
+
+# username = input("Как тебя звать?")
+# print(f"{username} , купи слона!")
+#
+# for i in range(1000):
+#     argument = input()
+#     print(f"Все говорят, {argument} , а ты купи слона!")
+
+# `````````````````Дз```````````````````````#
+
+# text = input("введите текст :")
+# frsSym = input("Введите первый искомый символ :")
+# secSym = input("Введите второй искомый символ :")
+# fscoun = 0
+# sscount = 0
+#
+# for symbol in text:
+#     if symbol == frsSym:
+#         fscoun += 1
+#     if symbol == secSym:
+#         sscount += 1
+#
+# print(f"кол-во {frsSym} равно : {fscoun}")
+# print(f"кол-во {secSym} равно : {sscount}")
+
+# `````````````````Дз```````````````````````#
+
+# text = input("Введите текст:")
+#
+# for symbol in text :
+#     print(symbol * 3)
+
+# `````````````````Дз```````````````````````#
+
+# text = input("Введите текст:")
+# litl_sym = 0
+# hight_sym = 0
+#
+# for sym in text:
+#     if sym == "Ы":
+#         hight_sym += 1
+#     if sym == "ы":
+#         litl_sym += 1
+#
+# print(f"Больших букв Ы: {hight_sym}")
+# print(f"Маленьких букв ы: {litl_sym}")
