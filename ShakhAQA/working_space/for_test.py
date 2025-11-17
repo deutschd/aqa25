@@ -1,0 +1,1 @@
+print('well', input('Enter name: '))
