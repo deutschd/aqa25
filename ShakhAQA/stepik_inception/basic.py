@@ -101,5 +101,17 @@ print('Ход королём:')
 # if abs(a - c) <= 1 and abs(b - d) <= 1:
 #     print("YES")
 # else:
-#     print("NO")d
-
+#     print("NO")
+print('\n2 squares of a chessboard match')
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if a==c and b==d:
+    print('YES')
+elif (a+b)%2==0 and (c+d)%2==0:
+    print('YES')
+elif (a+b)%2!=0 and (c+d)%2!=0:
+    print('YES')
+else:
+    print('NO')
