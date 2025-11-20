@@ -102,4 +102,100 @@ print('Ход королём:')
 #     print("YES")
 # else:
 #     print("NO")
+print('EVERY EQUAL(3), TWO EQUAL(2), ONE(0)')
+a, b, c = 1,2,3 #int(input()), int(input()), int(input())
+
+if a == b:
+    if b == c:
+        print(3)
+    else:
+        print(2)
+else:
+    if a == c:
+        print(2)
+    else:
+        if b == c:
+            print(2)
+        else:
+            print(0)
+
+if a == b == c:
+    print(3)
+elif a == b:
+    print(2)
+elif b == c:
+    print(2)
+elif a == c:
+    print(2)
+else:
+    print(0)
+angle = 89
+
+if angle < 90:
+    print('Меньше 90')
+elif angle > 180:
+    print('Больше 180')
+elif angle < 270:
+    print('Меньше 270')
+angle = 11
+
+if angle < 15:
+    print('Меньше 15')
+if angle > 45:
+    print('Больше 45')
+elif angle < 75:
+    print('Меньше 75')
+print('\nAdding colors')
+a='красный' #input()
+b='зеленый' #input()
+if (a=='красный' and b=='синий') or (b=='красный' and a=='синий'):
+    print('фиолетовый')
+elif (a=='красный' and b=='желтый') or (b=='красный' and a=='желтый'):
+    print('оранжевый')
+elif (a=='синий' and b=='желтый') or (b=='синий' and a=='желтый'):
+    print('зеленый')
+else:
+    print('ошибка цвета')
+print('\n2 line segments:')
+a1 = 3 # int(input())
+b1 = 5 # int(input())
+a2 = 1 # int(input())
+b2 = 3 # int(input())
+if a1==a2 and b1==b2:
+    print(a1, b1)
+elif a1<a2 and b1<a2:
+    print('пустое множество')
+elif a2<a1 and b2<a1:
+    print('пустое множество')
+elif a1<a2 and b1==a2:
+    print(b1)
+elif a2<a1 and b2==a1:
+    print(b2)
+elif a1<=a2<b1<=b2:
+    print(a2,b1)
+elif a2<=a1<b2<=b1:
+    print(a1,b2)
+elif a1<a2<b2<b1:
+    print(a2,b2)
+elif a2<a1<b1<b2:
+    print(a1,b1)
+elif a1==a2 and b1<b2:
+    print(a1, b1)
+elif a1==a2 and b2<b1:
+    print(a2, b2)
+else:
+    print('пустое множество')
+print('\n2 squares of a chessboard match:')
+a=1 #int(input())
+b=1 #int(input())
+c=2 #int(input())
+d=6 #int(input())
+if a==b and c==d:
+    print('YES')
+elif (a+b)%2==0 and (c+d)%2==0:
+    print('YES')
+elif (a+b)%2!=0 and (c+d)%2!=0:
+    print('YES')
+else:
+    print('NO')
 
