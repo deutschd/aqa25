@@ -101,5 +101,5 @@ print('Ход королём:')
 # if abs(a - c) <= 1 and abs(b - d) <= 1:
 #     print("YES")
 # else:
-#     print("NO")
+#     print("NO")d
 
