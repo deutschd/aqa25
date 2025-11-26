@@ -162,3 +162,25 @@ if c == d:
 else:
     print('Число неинтересное')
 
+import math
+from math import *
+a = 1
+b = 3
+c = 4.7
+print('floor(c) =',floor(c))
+print('ceil(c) =',ceil(c))
+print('sqrt(a) =',sqrt(a))
+print('pow(a,b) =',pow(a,b))
+print('log(a) =',log(a))
+print('log10(a) =',log10(a))
+print('log(a,b) =',log(a,b))
+print('factorial(a) =',factorial(a))
+print('degrees(a) =',degrees(a))
+print('radians(a) =',radians(a))
+print('cos(a) =',cos(a))
+print('sin(a) =',sin(a))
+print('tan(a) =',tan(a))
+print('acos(a) =',acos(a))
+print('asin(a) =',asin(a))
+print('atan(a) =',atan(a))
+print('atan2(a,b) =',atan2(a,b))
