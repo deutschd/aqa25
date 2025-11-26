@@ -154,10 +154,11 @@ else:
 #     print('NO')
 a=354
 print(a//100, a//10%10, a%10)
-a=int(input())
+a=126 # int(input()) # checks if 1+6 and 1-6 is equal
 c= max(a//100, a//10%10, a%10) - min(a//100, a//10%10, a%10)
 d= (a//100 + a//10%10 + a%10) - (max(a//100, a//10%10, a%10) + min(a//100, a//10%10, a%10))
 if c == d:
     print('Число интересное')
 else:
     print('Число неинтересное')
+
