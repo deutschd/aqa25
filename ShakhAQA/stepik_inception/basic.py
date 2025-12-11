@@ -184,3 +184,54 @@ print('acos(a) =',acos(a))
 print('asin(a) =',asin(a))
 print('atan(a) =',atan(a))
 print('atan2(a,b) =',atan2(a,b))
+print('pi =', pi)
+print('e =', e)
+print('round(c) =',round(c))
+print('round(c,2) =',round(c,2))
+
+from math import *
+
+a = -142 # float(input())
+b = 100 # float(input())
+c = -55 # float(input())
+D = b ** 2 - 4 * a * c
+if D == 0:
+    x = -(b / (2 * a))
+    print(x)
+elif D < 0:
+    print('Нет корней')
+else:
+    x1 = (-b - sqrt(D)) / (2 * a)
+
+    x2 = (-b + sqrt(D)) / (2 * a)
+    if x1 > x2:
+        print(x2)
+        print(x1)
+    else:
+        print(x1)
+        print(x2)
+
+
+for i in range(10):
+    print('Hi', i)
+
+for i in range(10,18):
+    if i % 2 == 0:
+        print(i)
+
+for i in range(10,18,2):
+    print(i)
+for i in range(20,14,-1):
+    print(i)
+
+print('SHOW ODD NUMBERS:')
+m = 4 # int(input())
+n = -5 # int(input())
+
+for i in range(m,n-1,-1):
+    if 0 == (i - 1)%2:
+        print(i)
+
+a=6 # int(input())
+for i in range(1,11):
+    print(str(a)+' x '+ str(i)+' = '+str(a*i))
