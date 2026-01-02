@@ -280,6 +280,72 @@ print('sum is equal to:', total)
 print('hello')
 
 
+print('Count how many numbers in input more than 10')
+counter = 0
+for _ in range(10):
+    #num = int(input('Enter a number: '))
+    if num > 10:
+        counter = counter + 1
+print('There are', counter, 'numbers in total more than 10')
+
+
+print('How many numbers more than 10 and are 0')
+counter1 = 0
+counter2 = 0
+for _ in range(10):
+    #num = int(input())
+    if num > 10:
+        counter1 = counter1 + 1
+    if num == 0:
+        counter2 = counter2 + 1
+print('There are', counter1, 'numbers in total more than 10')
+print('There are', counter2, 'zero numbers in total')
+
+
+counter = 0
+for i in range(1,101):
+    if i**2 % 10 == 4:
+        counter = counter + 1
+print(counter)
+
+
+print('Count sum of numbers more than 10')
+total = 0
+for _ in range(10):
+    #num = int(input())
+    if num > 10:
+        total = total + num
+print('Sum of numbers more than 10 = ', total)
+
+
+print('SUM of Natural numbers from 1 to 100')
+total = 0
+for i in range(1,101):
+    total = total + i
+print('Sum is equal to:', total)
+
+
+print('10 numbers and their arithmetic mean')
+total = 0
+for _ in range(10):
+    #num = int(input())
+    total = total + num
+
+average = total / 10
+print('Average =', average)
+
+
+print('Max and min')
+print('The biggest number from 10 given')
+largest = 0
+for _ in range(10):
+    num = int(input('Enter a number: '))
+    if num > largest:
+        largest = num
+print('Largest number =', largest)
+
+
+
 
 
 
