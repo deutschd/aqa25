@@ -235,3 +235,60 @@ for i in range(m,n-1,-1):
 a=6 # int(input())
 for i in range(1,11):
     print(str(a)+' x '+ str(i)+' = '+str(a*i))
+
+print('Enter the number, we know how many of them more than 10')
+counter = 0
+for _ in range(10):
+    num = 12 # int(input())
+    if num > 10:
+        counter = counter + 1
+print('You entered', counter, 'numbers more than 10')
+
+counter1 = 0
+counter2 = 0
+# for _ in range(10):
+#     num = int(input('Enter the number: '))
+#     if num > 10:
+#         counter1 = counter1 + 1
+#     if num == 0:
+#         counter2 = counter2 + 1
+# print('You entered', counter1, 'numbers more than 10')
+# print('You entered', counter2, 'numbers which is 0')
+
+print('How many numbers divided to 4:')
+counter = 0
+for i in range(1, 101):
+    if i**2 % 10 == 4:
+        counter = counter + 1
+print(counter)
+
+print('How many numbers more than 10, their sum')
+total = 0
+for _ in range(10):
+    num = 3 # int(input('Enter a number: '))
+    if num > 10:
+        total = total + num
+print('sum of numbers bigger than 10:', total)
+
+print('sum of natural numbers from 1 to 100')
+total = 0
+for i in range(1,101):
+    total = total + i
+print('sum is equal to:', total)
+
+
+print('hello')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
