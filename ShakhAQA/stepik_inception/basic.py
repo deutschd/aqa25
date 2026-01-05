@@ -502,22 +502,20 @@ print('Another example:')
 # print(nums[-1])
 
 print('\nFibonacci series - simple')
-# formula = 1
-# n = int(input())
-# sum = 0
-# another = 1
-#
-# if n == 1:
-#     print(1)
-# else:
-#     print(1,1, end=' ')
-#     for i in range(1,n-1):
-#         sum = formula
-#         formula = sum + another
-#         another = sum
-#         print(formula, end=' ')
-s
+formula = 1
+n = int(input('Enter how many Fibonacci numbers you want to see: '))
+sum = 0
+another = 1
 
+if n != 1:
+    print(1, 1, end =' ')
+    for i in range(1, n - 1):
+        sum = formula
+        formula = sum + another
+        another = sum
+        print(formula, end=' ')
+else:
+    print(1)
 
 
 
