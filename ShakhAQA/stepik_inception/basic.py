@@ -337,12 +337,204 @@ print('Average =', average)
 
 print('Max and min')
 print('The biggest number from 10 given')
-largest = 0
+largest = 323 # int(input('Enter the largest number: '))
 for _ in range(10):
-    num = int(input('Enter a number: '))
+    num = 12 # int(input('Enter a number: '))
     if num > largest:
         largest = num
 print('Largest number =', largest)
+
+
+
+total = 0
+counter = 0
+even = 0
+greater_than_6 = 0
+for i in range(10, 4, -1):
+    total = total + i
+    counter = counter + 1
+    last = i
+    if i % 2 == 0:
+        even = even + 1
+    if i < 6:
+        greater_than_6 = greater_than_6 + 1
+print('total =', total)
+print('counter =', counter)
+print('even =', even)
+print('greater_than_6 =', greater_than_6)
+
+print('Count length of words')
+total_len = 0
+for _ in range(3):
+    word = '321' # input('Enter a word: ')
+    total_len = total_len + len(word)
+print('The length of word =', total_len)
+
+
+print('Find a prime number')
+#num = int(input('Enter a number: '))
+flag = True
+
+for i in range(2, num):
+    if num % i == 0:
+        flag = False
+if num == 1:
+    print('It is 1')
+elif flag == True:
+    print('It is prime')
+else:
+    print('It is not prime')
+
+a, b = 3, 4
+a, b = a + b, 2 * a
+print(a, b)
+
+total = 0
+for i in range(1, 10):
+    if i % 2 == 1:
+        total = total + i
+print(total)
+total = 0
+
+for i in range(1, 6):
+    total += i
+    print(total, end='')
+
+print()
+a=1 #int(input('enter a number: '))
+b=10 #int(input('enter another number: '))
+counter = 0
+for i in range(a,b+1):
+    if i**3 % 10 == 4 or i**3 % 10 == 9:
+        counter = counter + 1
+print(counter)
+
+print('Sum of given numbers')
+# counter = 0
+# n = int(input('Enter a number: '))
+# for i in range(1,n+1):
+#     num = int(input('Enter a number: '))
+#     counter += num
+# print(counter)
+
+formula = 0
+n = 10#int(input('Enter a number: '))
+for i in range(1,n+1):
+    formula = formula + 1/i
+
+print(formula-log(n))
+formula = 0
+num = 10 # int(input('Enter a number: '))
+for i in range(1,num+1):
+    if i **2 % 10 == 2 or i **2 % 10 == 5 or i **2 % 10 == 8:
+        formula += i
+
+print(formula)
+
+print('Find Factorial')
+# fact_rial = int(input('Enter a number: '))
+# total = 0
+# for i in range(1,fact_rial+1):
+#     total = total + i
+# print(total)
+
+print('Multiply 10 numbers random')
+# total = 1
+# for i in range(1,11):
+#     num = int(input())
+#     if num != 0:
+#         total = total * num
+# print(total)
+
+# total = 0
+# num = int(input())
+# for i in range(1,num+1):
+#     if num % i ==0:
+#         total = total + i
+# print(total)
+
+l=0
+# for i in range(1,11):
+#     num = int(input())
+#     if num % 2 == 0:
+#         l='YES'
+#     else:
+#         l='NO'
+#         break
+# print(l)
+#
+print('\nFormula to create 1-2+3-4...((-1)**n+1)*n')
+# formula = 0
+# n = 5 # int(input())
+# for i in range(1,n+1):
+#     formula = formula + ((-1)**(i+1))*i
+#
+# print(formula)
+#
+print('\nWhat is 1st and 2nd largest number?')
+# how = int(input())
+# largest = True
+# second_largest = True
+# for _ in range(1, how+1):
+#     num = int(input())
+#     if num > largest:
+#         second_largest = largest
+#         largest = num
+#     elif num > second_largest:
+#         second_largest = num
+# print(second_largest)
+# print(largest)
+
+print('\nSORT THEN CHOOSE -2 and -1:')
+# nums = []
+# n = int(input())
+# for i in range(n):
+#     num = int(input())
+#     nums.append(num)
+# nums.sort()
+# print(nums[-2])
+# print(nums[-1])
+
+print('Another example:')
+# nums = [ int(input()) for _ in range(int(input())) ]
+# nums.sort()
+# print(nums[-2])
+# print(nums[-1])
+
+print('\nFibonacci series - simple')
+# formula = 1
+# n = int(input())
+# sum = 0
+# another = 1
+#
+# if n == 1:
+#     print(1)
+# else:
+#     print(1,1, end=' ')
+#     for i in range(1,n-1):
+#         sum = formula
+#         formula = sum + another
+#         another = sum
+#         print(formula, end=' ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
