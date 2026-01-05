@@ -516,6 +516,7 @@ print('\nFibonacci series - simple')
 #         formula = sum + another
 #         another = sum
 #         print(formula, end=' ')
+s
 
 
 
