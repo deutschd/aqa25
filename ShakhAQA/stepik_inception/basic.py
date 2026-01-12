@@ -502,27 +502,39 @@ print('Another example:')
 # print(nums[-1])
 
 print('\nFibonacci series - simple')
-formula = 1
-n = int(input('Enter how many Fibonacci numbers you want to see: '))
-sum = 0
-another = 1
-
-if n != 1:
-    print(1, 1, end =' ')
-    for i in range(1, n - 1):
-        sum = formula
-        formula = sum + another
-        another = sum
-        print(formula, end=' ')
-else:
-    print(1)
-
-
+# formula = 1
+# n = int(input('Enter how many Fibonacci numbers you want to see: '))
+# sum = 0
+# another = 1
+#
+# if n == 1:
+#     print(1)
+# else:
+#     print(1, 1, end =' ')
+#     for i in range(1, n - 1):
+#         sum = formula
+#         formula = sum + another
+#         another = sum
+#         print(formula, end=' ')
 
 
+i = 0
+while i < 3:
+    print('Hello')
+    i += 1
 
+print('\nShow the square of number before "-1" number comes')
+# num = int(input('Enter a number: '))
+# while num != -1:
+#     print('Square of number:', num * num)
+#     num = int(input('Enter a number: '))
 
-
+for i in range(11):
+    print(i)
+i = 0
+while i < 11:
+    print(i)
+    i += 1
 
 
 
