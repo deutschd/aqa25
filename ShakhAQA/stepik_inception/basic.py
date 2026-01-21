@@ -536,26 +536,162 @@ while i < 11:
     print(i)
     i += 1
 
+for i in range(0, 10, 3):
+    print(i)
+i = 0
+while i < 11:
+    print(i)
+    i += 3
+
+print('\nSum until you reach the stop word')
+# text = input('Enter a word: ')
+# total = 0
+# while text != 'stop':
+#     total += int(text)
+#     text = input('Enter a word: ')
+# print('Sum is equal to:', total)
+
+print('\nSum until the function is met')
+# num = int(input('Enter a number: '))
+# total = 0
+# while abs(num) <= 5:
+#     total += num
+#     num = int(input('Enter a number: '))
+# print(total)
+
+print('\nWrite words until "END"')
+# word = input('Enter a word: ')
+# while word != 'END':
+#     print(word)
+#     word = input('Enter a word: ')
+
+print('\nWrite words until "END" or "end"')
+# word = input('')
+# while word != 'END':
+#     if word =='end':
+#         word = 'END'
+#     else:
+#         print(word)
+#         word = input('')
+
+print('\nWrite words until "стоп","хватит","достаточно"')
+# word = input()
+# counter = 0
+# while word not in ('стоп','хватит','достаточно'):
+#     counter +=1
+#     word = input()
+# print(counter)
+
+print('Before we meet number not divided by 7')
+# number = int(input('Enter a number: '))
+# while number%7 == 0:
+#     print(number)
+#     number = int(input('Enter a number: '))
+
+print('Before we meet negative number show SUM of previous')
+# num = False
+# counter = 0
+# while num >= 0:
+#     counter += num
+#     num = int(input())
+# print(counter)
+
+print('How many 5 students get (from 1-5 only allowed)')
+# num = int(input())
+# counter = 0
+# while 1 <= num <= 5:
+#     if num == 5:
+#         counter = counter + 1
+#         num = int(input())
+#     else:
+#         num = int(input())
+# print(counter)
+
+print('Until we met a word with without the symbol "_" - write this word')
+# nick=input()
+# word ='_'
+# while word in nick:
+#     nick = input()
+# print(nick)
+
+print('How many people between two people in queue')
+# name1 = 'Александра'
+# name2 = 'Левон'
+# name = 0
+# counter = 0
+# counterAleksandra = 0
+# while name != name2:
+#     name = input()
+#     counter += 1
+#     if name == name1:
+#         counterAleksandra = counter
+#         print(counter)
+#
+# print(counter-counterAleksandra-1)
 
 
 
+print('\nShow how many 25-10-5-1 coins can be in sum like 89')
+# price = int(input("Enter amount: "))
+# counter = 0
+# counter += price // 25
+# price %= 25
+# counter += price // 10
+# price %= 10
+# counter += price // 5
+# price %= 5
+# counter += price
+# print(counter)
+
+# num = int(input())
+# counter = 0
+# while num >=25:
+#     counter +=1
+#     num -= 25
+# while num>=10:
+#     counter += 1
+#     num -= 10
+# while num>=5:
+#     counter += 1
+#     num -= 5
+# while num>=1:
+#     counter += 1
+#     num -= 1
+#
+# print(counter)
 
 
+# h1 = int(input())
+# h2 = int(input())
+# m2 = int(input()) h1:m1 h2:m2
 
 
+# h1 = int(input()) 1
+# m1 = int(input()) 57
+# h2 = int(input()) 2
+# m2 = int(input()) 3
 
 
-
-
-
-
-
-
-
-
-
-
-
+h1 = int(input())
+m1 = int(input())
+h2 = int(input())
+m2 = int(input())
+print(int('0123'))
+if h1 < 10:
+    h1 = '0'+str(h1)
+if h2 < 10:
+    h2 = '0'+str(h2)
+if m1 < 10:
+    m1 = '0'+str(m1)
+if m2 < 10:
+    m2 = '0'+str(m2)
+h1m1 = (h1+m1)
+h2m2 = (h2+m2)
+int_1 = int(h1m1)
+int_2 = int(h2m2)
+while int_1 < int_2 + 1:
+    int_1 = int_2 + 1
+    print(int_1)
 
 
 
