@@ -806,7 +806,7 @@ while num != 0:
 
 
 print('The collection is', collection)
-
+s
 
 
 
