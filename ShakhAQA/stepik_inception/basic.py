@@ -1,3 +1,5 @@
+from numpy.ma.core import maximum
+
 delimiter = '+'
 print('a', 'b', sep=delimiter)
 print('YES', sep='!', end='#')
@@ -661,37 +663,156 @@ print('\nShow how many 25-10-5-1 coins can be in sum like 89')
 # print(counter)
 
 
+
+
+print('Time from 13:41 to 13:45 -> 13:42, 13:43, 13:44')
 # h1 = int(input())
+# m1 = int(input())
 # h2 = int(input())
-# m2 = int(input()) h1:m1 h2:m2
+# m2 = int(input())
+#
+# start = h1*60 + m1
+# end = h2*60 + m2
+#
+# while start <= end:
+#     h = start // 60
+#     m = start % 60
+#
+#     if h < 10:
+#         hh = '0' + str(h)
+#     else:
+#         hh = str(h)
+#
+#     if m < 10:
+#         mm = '0' + str(m)
+#     else:
+#         mm = str(m)
+#
+#     print(hh + ':' + mm)
+#     start += 1
+
+print('\n7.6. is started - while + for usage in working with numbers')
+# num = int(input('Enter a number: '))
+# while num != 0:
+#     last_digit = num % 10
+#     ...
+#     num = num // 10
+#     print('The last digit of the number is:', last_digit)
+#     print('Deleted number:', num)
+
+print('Does number have 7')
+# num = 1576
+# has_seven = False
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit == 7:
+#         has_seven = True
+#     num = num // 10
+# if has_seven == True:
+#     print('Yes')
+# else:
+#     print('No')
+
+print('\nShow every number from left to right')
+# num = int(input()) # 8619
+# n = len(str(num))
+# for i in range(1, n+1):
+#     digit = num // 10 ** (n - i) % 10
+#     print(i, 'the number is equal to: ', digit)
+
+print('\nShow every number from right to left')
+# num = 496
+# while num != 0:
+#     last_digit = num % 10
+#     print(last_digit, end ='-')
+#     num //= 10
+
+print('\nShow number flipped/reflected 356 - 653')
+# num = int(input())
+# while num != 0:
+#     last_digit = num % 10
+#     first_digit = last_digit
+#     print(first_digit, end='')
+#     num //= 10
+
+print('\nMax and Min number in number 2678319')
+# num = 36782190
+# last_digit = num % 10
+# maximum = last_digit
+# minimum = last_digit
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit > maximum:
+#         maximum = last_digit
+#     if last_digit < minimum:
+#         minimum = last_digit
+#     num //= 10
+# print(maximum, minimum)
+
+print('''сумму его цифр;
+количество цифр в нем;
+произведение его цифр;
+среднее арифметическое его цифр;
+его первую цифру;
+сумму его первой и последней цифры.''')
+# num = int(input())
+# lastnum = num % 10
+# strnum = str(num)
+# sumnum = 0
+# collection = 0
+# multiply = 1
+# arithmetic = 0
+# firstp = 1
+# while num != 0:
+#     numle = num % 10
+#     sumnum += numle
+#     multiply *= numle
+#
+#     collection += 1
+#     firstp = num
+#     num //= 10
+#
+# arithmetic = sumnum / len(strnum)
+# sum = firstp + lastnum
+# print(sumnum)
+# print(collection)
+# print(multiply)
+# print(arithmetic)
+# print(firstp)
+# print(sum)
+
+print('\nShow the 2nd number in number')
+# num = int(input())
+# strnum = str(num)
+# collection = 0
+# while num != 0:
+#     numle = num % 10
+#     collection += 1
+#     if collection == len(strnum):
+#         print(numle)
+#     num //= 10
+
+print('\nSHOW IF EVERY NUMBER IS EQUAL')
+num = int(input('Enter a number: '))
+strnum = str(num)
+collection = 0
+while num != 0:
+    numle = num % 10
+    num //= 10
+    new = num % 10
+    print('the numle is', new)
+    if collection == len(strnum) - 1:
+        new = numle
 
 
-# h1 = int(input()) 1
-# m1 = int(input()) 57
-# h2 = int(input()) 2
-# m2 = int(input()) 3
+print('The collection is', collection)
 
 
-h1 = int(input())
-m1 = int(input())
-h2 = int(input())
-m2 = int(input())
-print(int('0123'))
-if h1 < 10:
-    h1 = '0'+str(h1)
-if h2 < 10:
-    h2 = '0'+str(h2)
-if m1 < 10:
-    m1 = '0'+str(m1)
-if m2 < 10:
-    m2 = '0'+str(m2)
-h1m1 = (h1+m1)
-h2m2 = (h2+m2)
-int_1 = int(h1m1)
-int_2 = int(h2m2)
-while int_1 < int_2 + 1:
-    int_1 = int_2 + 1
-    print(int_1)
+
+
+
+
+
 
 
 
