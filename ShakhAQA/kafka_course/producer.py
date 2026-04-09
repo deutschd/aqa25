@@ -14,6 +14,8 @@ def delivery_report(err, msg):
         print(f"❌ Delivery failed: {err}")
     else:
         print(f"✅ Delivered {msg.value().decode("utf-8")}")
+        print(dir(msg))
+        print(f"✅ Delivered to {msg.topic()} : partition {msg.partition()} : at offset {msg.offset()}")
 
 order = {
     "order_id": str(uuid.uuid4()),
@@ -31,3 +33,7 @@ producer.produce(
 )
 
 producer.flush()
+
+
+
+#  docker exec -it kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic orders --from-beginning
