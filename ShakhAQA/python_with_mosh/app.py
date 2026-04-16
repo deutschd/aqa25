@@ -25,3 +25,4 @@ first = "John"
 last = "Smith"
 full_name = f"{len(first)} {last} {2 + 2}"
 print(full_name)              # 4 Smith 4
+das
