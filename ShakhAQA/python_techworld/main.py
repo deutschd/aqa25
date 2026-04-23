@@ -25,4 +25,5 @@ def scope_check(num_of_days):
     print(name_of_unit) # global variable
     print(num_of_days) # local variable
     print(my_var)
+
 scope_check(21)
