@@ -78,6 +78,28 @@ print('\nnested if else')
 # validate_and_execute()
 
 print('\nerror handling with try/except')
+# def days_to_units(num_of_days):
+#     return f"{num_of_days} days are {num_of_days * to_seconds} seconds"
+#
+# def validate_and_execute():
+#     try:
+#         user_input_number = int(user_input)
+#         if user_input_number > 0:
+#             calculated_value = days_to_units(user_input_number)
+#             print(calculated_value)
+#         elif user_input_number == 0:
+#             print("you entered 0, enter a valid positive number")
+#         else:
+#             print("you entered a negative number, no conversion for you")
+#
+#     except ValueError:
+#         print("your input is not a valid number. enter another one")
+#
+#
+# user_input = (input("Hey user, enter a number of days and I will convert it to seconds:\n"))
+# validate_and_execute()
+
+print("\nWhile loops")
 def days_to_units(num_of_days):
     return f"{num_of_days} days are {num_of_days * to_seconds} seconds"
 
@@ -95,6 +117,9 @@ def validate_and_execute():
     except ValueError:
         print("your input is not a valid number. enter another one")
 
+user_input = "input()"
+while user_input != "exit":
+    user_input = (input("Hey user, enter a number of days and I will convert it to seconds:\n"))
+    validate_and_execute()
 
-user_input = (input("Hey user, enter a number of days and I will convert it to seconds:\n"))
-validate_and_execute()
+print("\nWhile loops")
