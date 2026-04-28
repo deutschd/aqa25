@@ -264,13 +264,3 @@ while user_input != "exit":
     print(type(days_and_unit_dictionary))
     # h.validate_and_execute(days_and_unit_dictionary) # h - when you rename import
     validate_and_execute(days_and_unit_dictionary)"""
-
-
-
-
-
-
-
-
-
-
